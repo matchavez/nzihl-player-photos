@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T12:01:07Z",
+  "generated_at": "2026-07-11T12:18:53Z",
   "leagues": {
     "nzihl": {
       "display_name": "NZIHL",
@@ -1863,12 +1863,12 @@
               "last_verified": "2026-07-11",
               "name": "Maxim Kaluzhny",
               "number": "42",
-              "photo": null,
+              "photo": "photos/nzihl/skycity_stampede/MaximKaluzhny.jpg",
               "player_id": 1177139,
               "position": "D",
               "role": "player",
-              "sha256": null,
-              "source_url": null
+              "sha256": "ca5c46bc2d16c94b3b5dfbb711335e17eb77ed3d5f2049cb5813d41aa0fc72b1",
+              "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/MaximKaluzhny.jpg"
             },
             "nzihl:SCS:player:1675843": {
               "active": true,
@@ -1889,12 +1889,12 @@
               "last_verified": "2026-07-11",
               "name": "Jordan Challis",
               "number": "22",
-              "photo": null,
+              "photo": "photos/nzihl/skycity_stampede/JordanChallis.jpg",
               "player_id": 1954036,
               "position": "F",
               "role": "player",
-              "sha256": null,
-              "source_url": null
+              "sha256": "761e71030124c53b7ebea2458603346703106bbdf8e46b9be2cc11900d0b57a5",
+              "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/JordanChallis.jpg"
             },
             "nzihl:SCS:player:2011941": {
               "active": true,
@@ -1902,12 +1902,12 @@
               "last_verified": "2026-07-11",
               "name": "Joel Gerard",
               "number": "35",
-              "photo": null,
+              "photo": "photos/nzihl/skycity_stampede/JoelGerard.jpg",
               "player_id": 2011941,
               "position": "G",
               "role": "player",
-              "sha256": null,
-              "source_url": null
+              "sha256": "630fb67c6731632ea79f86d5d01cc1c5278c2526fb53b2546900924220bc2ee6",
+              "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/JoelGerard.jpg"
             },
             "nzihl:SCS:player:2012738": {
               "active": true,
@@ -1915,12 +1915,12 @@
               "last_verified": "2026-07-11",
               "name": "Stefan Amston",
               "number": "3",
-              "photo": null,
+              "photo": "photos/nzihl/skycity_stampede/StefanAmston.jpg",
               "player_id": 2012738,
               "position": "D",
               "role": "player",
-              "sha256": null,
-              "source_url": null
+              "sha256": "f5590fc9d52352b8b1322f0cbb0477bba998da7b2b6cc520743f627b4a3fa554",
+              "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/StefanArmston%2Ejpg"
             },
             "nzihl:SCS:player:2012888": {
               "active": true,
@@ -1928,12 +1928,12 @@
               "last_verified": "2026-07-11",
               "name": "Dylan Devlin",
               "number": "21",
-              "photo": null,
+              "photo": "photos/nzihl/skycity_stampede/DylanDevlin.jpg",
               "player_id": 2012888,
               "position": "F",
               "role": "player",
-              "sha256": null,
-              "source_url": null
+              "sha256": "2b99e362608be64e59b4ffa9cdb34fbe72cb7821b372ee81b559344b4227fd81",
+              "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/DylanDevlinprofile%2Ejpg"
             },
             "nzihl:SCS:player:2015045": {
               "active": true,
@@ -1941,12 +1941,12 @@
               "last_verified": "2026-07-11",
               "name": "Connor Harrison",
               "number": "8",
-              "photo": null,
+              "photo": "photos/nzihl/skycity_stampede/ConnorHarrison.jpg",
               "player_id": 2015045,
               "position": "F",
               "role": "player",
-              "sha256": null,
-              "source_url": null
+              "sha256": "a4a0f5d77a1af666c8d8b2cd44a9ab3c510c454b37b364672667a3866f08c4f1",
+              "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/ConnorHarrison.jpg"
             },
             "nzihl:SCS:player:2015796": {
               "active": true,
@@ -1954,12 +1954,12 @@
               "last_verified": "2026-07-11",
               "name": "Jack Robbie",
               "number": "19",
-              "photo": null,
+              "photo": "photos/nzihl/skycity_stampede/JackRobbie.jpg",
               "player_id": 2015796,
               "position": "F",
               "role": "player",
-              "sha256": null,
-              "source_url": null
+              "sha256": "d056241f935a752e8a09f8f2504694e6453b143ed6da0fd07414b7c81fa39106",
+              "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/JackRobbie.jpg"
             },
             "nzihl:SCS:player:2016315": {
               "active": true,
@@ -1967,12 +1967,12 @@
               "last_verified": "2026-07-11",
               "name": "Jackson Flight",
               "number": "88",
-              "photo": null,
+              "photo": "photos/nzihl/skycity_stampede/JacksonFlight.jpg",
               "player_id": 2016315,
               "position": "F",
               "role": "player",
-              "sha256": null,
-              "source_url": null
+              "sha256": "6e220731ac9626a79cf29be12f83a8c969b575d2316fc5754c72b75c23417aad",
+              "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/JacksonFlight.jpg"
             },
             "nzihl:SCS:player:2025961": {
               "active": true,
@@ -2110,12 +2110,12 @@
               "last_verified": "2026-07-11",
               "name": "Lachlan Frear",
               "number": "24",
-              "photo": null,
+              "photo": "photos/nzihl/skycity_stampede/LachlanFrear.jpg",
               "player_id": 2070139,
               "position": "F",
               "role": "player",
-              "sha256": null,
-              "source_url": null
+              "sha256": "7f2d02395de2211b41c55f26e934ddaef436dfd15d9737f15314c9ec3e03cb47",
+              "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/LachlanFrear.jpg"
             },
             "nzihl:SCS:player:2070602": {
               "active": true,
@@ -2123,12 +2123,12 @@
               "last_verified": "2026-07-11",
               "name": "Matthew Swirtz",
               "number": "1",
-              "photo": null,
+              "photo": "photos/nzihl/skycity_stampede/MatthewSwirtz.jpg",
               "player_id": 2070602,
               "position": "G",
               "role": "player",
-              "sha256": null,
-              "source_url": null
+              "sha256": "b584ae390a8336dfeee95c874eb680ae9fb84f697ac394f05c2925b87bcc8e76",
+              "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/MattSwirtz%2Ejpg"
             },
             "nzihl:SCS:player:2070889": {
               "active": true,
@@ -2188,12 +2188,12 @@
               "last_verified": "2026-07-11",
               "name": "Mitchell Frear",
               "number": "16",
-              "photo": null,
+              "photo": "photos/nzihl/skycity_stampede/MitchellFrear.jpg",
               "player_id": 2073065,
               "position": "D",
               "role": "player",
-              "sha256": null,
-              "source_url": null
+              "sha256": "dd811a8d0326bbf841c54b50e6a14e3fee4fd9c7b81668b0be22242275cd016d",
+              "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/MitchellFrear.jpg"
             },
             "nzihl:SCS:player:2073093": {
               "active": true,
@@ -2214,12 +2214,12 @@
               "last_verified": "2026-07-11",
               "name": "Tyler Challoner",
               "number": "52",
-              "photo": null,
+              "photo": "photos/nzihl/skycity_stampede/TylerChalloner.jpg",
               "player_id": 2114204,
               "position": "F",
               "role": "player",
-              "sha256": null,
-              "source_url": null
+              "sha256": "464c84592045446212cdfc861608a63aebbd4536f40fea33c67befbce276d9ad",
+              "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/TylerChalloner.jpg"
             },
             "nzihl:SCS:player:2118956": {
               "active": true,
@@ -2227,12 +2227,12 @@
               "last_verified": "2026-07-11",
               "name": "Logan Campbell",
               "number": "36",
-              "photo": null,
+              "photo": "photos/nzihl/skycity_stampede/LoganCampbell.jpg",
               "player_id": 2118956,
               "position": "F",
               "role": "player",
-              "sha256": null,
-              "source_url": null
+              "sha256": "e51a5477081a1d0d500e1ee4277545cda4dc1411678538385fe7a22dc19f3353",
+              "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/LoganCampbell.jpg"
             },
             "nzihl:SCS:player:2166971": {
               "active": true,
