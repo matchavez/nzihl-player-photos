@@ -75,12 +75,18 @@ both handled:
   NOT distinguishable from a genuine photo by status code or Content-Type.
 
 So every candidate is validated by: `Content-Type` starts with `image/`,
-the bytes actually decode as an image, **and** the image is portrait
-(`height > width`, real headshots are ~600x750-600x900; smaller ad-hoc
-uploads are still portrait, e.g. 150x199). Anything square or landscape is
-treated as a placeholder, not a photo. This guard was added after Pure NZ
-Admirals #26 Benjamin De Jonge's naive guess AND profile-page fallback both
-initially resolved to the Admirals' 100x100 team-logo placeholder.
+the bytes actually decode as an image, **and** both dimensions are >= 150px.
+The placeholder is consistently served at exactly 100x100 (confirmed across
+multiple teams/filenames -- both a generic team-crest crop and a team's own
+small logo file); the smallest confirmed-real photo is 150x199/150x200
+(Dunedin-style ad-hoc uploads), so the cutoff sits comfortably between the
+two. Size, not aspect ratio, is what distinguishes a real photo from the
+placeholder -- an earlier version of this check rejected anything non-portrait
+on the (wrong) assumption that all real headshots are portrait, which
+misclassified SkyCity Stampede's Lachlan Frear's genuine 600x600 SQUARE
+headshot as a placeholder. This guard was added after Pure NZ Admirals #26
+Benjamin De Jonge's naive guess AND profile-page fallback both initially
+resolved to the Admirals' 100x100 team-logo placeholder.
 
 ## Filename normalization
 

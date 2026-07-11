@@ -76,17 +76,25 @@ def fetch_profile_headshot_url(team: Team, player_id: int) -> str | None:
     return "https://admin.esportsdesk.com" + path
 
 
+# esportsdesk's "no real photo uploaded" placeholder is consistently served
+# at exactly 100x100 (observed across multiple teams/filenames: a generic
+# team-crest crop AND a team's own small logo file both came back 100x100
+# when used as a largeHeadshot placeholder). Real photos -- including
+# genuinely SQUARE ones, e.g. a 600x600 headshot -- are all much larger.
+# The smallest confirmed-real photo seen is 150x199/150x200 (Dunedin-style
+# ad-hoc uploads), so the cutoff sits comfortably between 100 and 150.
+_MIN_PLAUSIBLE_DIMENSION = 150
+
+
 def _is_plausible_headshot(img: "Image.Image") -> bool:
-    """esportsdesk serves a generic team-logo/placeholder image (observed:
-    a 100x100 square crop of the team crest) at the guessed/profile URL for
-    players who have NO real headshot uploaded -- it's a real, valid,
-    200-status image, so Content-Type/decodability alone can't tell it apart
-    from a genuine photo. Real headshots are portrait (~600x750-600x900 per
-    memory; smaller ad-hoc uploads like Dunedin's 150x200 still portrait).
-    Reject anything square or landscape, or implausibly tiny, as a
-    placeholder rather than a real photo."""
+    """Reject esportsdesk's small placeholder image, accept everything
+    else. Earlier version of this check rejected any square image on the
+    theory that headshots are portrait -- wrong: SkyCity Stampede's Lachlan
+    Frear has a genuine 600x600 square headshot that got misclassified as a
+    placeholder until this was caught via a live spot-check. Size, not
+    aspect ratio, is what actually distinguishes the two."""
     w, h = img.size
-    return w >= 40 and h > w
+    return w >= _MIN_PLAUSIBLE_DIMENSION and h >= _MIN_PLAUSIBLE_DIMENSION
 
 
 def _looks_like_image(resp) -> bytes | None:

@@ -45,21 +45,32 @@ def test_looks_like_image_accepts_portrait_photo():
     assert _looks_like_image(resp) == data
 
 
-def test_looks_like_image_rejects_square_placeholder():
-    # esportsdesk serves a real, valid, 200-status square team-logo image as
-    # a "no photo" placeholder for players/coaches with no real headshot --
-    # this is the exact false-positive caught during development (Benjamin
-    # De Jonge's naive-guess/profile fallback both resolved to a 100x100
-    # team crest before this guard was added).
+def test_looks_like_image_rejects_tiny_placeholder():
+    # esportsdesk serves a real, valid, 200-status 100x100 team-logo image
+    # as a "no photo" placeholder for players/coaches with no real headshot
+    # -- this is the exact false-positive caught during development
+    # (Benjamin De Jonge's naive-guess/profile fallback both resolved to a
+    # 100x100 team crest before this guard was added).
     data = _make_image_bytes((100, 100))
     resp = FakeResponse(200, {"Content-Type": "image/jpeg"}, data)
     assert _looks_like_image(resp) is None
 
 
-def test_looks_like_image_rejects_landscape():
+def test_looks_like_image_accepts_genuine_square_photo():
+    # A real headshot can legitimately be square (SkyCity Stampede's Lachlan
+    # Frear is 600x600) -- an earlier "reject anything non-portrait" version
+    # of this check misclassified real square photos as placeholders. Size,
+    # not aspect ratio, is what distinguishes a real photo from the 100x100
+    # placeholder.
+    data = _make_image_bytes((600, 600))
+    resp = FakeResponse(200, {"Content-Type": "image/jpeg"}, data)
+    assert _looks_like_image(resp) == data
+
+
+def test_looks_like_image_accepts_landscape_above_threshold():
     data = _make_image_bytes((800, 600))
     resp = FakeResponse(200, {"Content-Type": "image/jpeg"}, data)
-    assert _looks_like_image(resp) is None
+    assert _looks_like_image(resp) == data
 
 
 def test_looks_like_image_rejects_non_200():
@@ -74,11 +85,16 @@ def test_looks_like_image_rejects_html_disguised_as_jpg():
     assert _looks_like_image(resp) is None
 
 
-def test_is_plausible_headshot_portrait_ok():
+def test_is_plausible_headshot_small_ad_hoc_upload_ok():
+    # Dunedin-style ad-hoc uploads, smallest real photo size observed.
     assert _is_plausible_headshot(Image.new("RGB", (150, 199))) is True
 
 
-def test_is_plausible_headshot_square_rejected():
+def test_is_plausible_headshot_genuine_square_photo_ok():
+    assert _is_plausible_headshot(Image.new("RGB", (600, 600))) is True
+
+
+def test_is_plausible_headshot_placeholder_rejected():
     assert _is_plausible_headshot(Image.new("RGB", (100, 100))) is False
 
 

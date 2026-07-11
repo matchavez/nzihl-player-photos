@@ -39,20 +39,36 @@ both had to be handled:
    with `image/`.
 2. A player/coach with NO uploaded photo has their profile page's
    `.largeHeadshot` background-image literally set to a **real, valid,
-   200-status, image/jpeg, 100x100 square crop of the team crest** --
-   esportsdesk's own UI "no photo" placeholder, baked into the HTML, not a
-   fetch-layer artifact. This is genuinely indistinguishable from a real
+   200-status, image/jpeg, 100x100 square crop of the team crest (or, for
+   some teams, their own small team-logo file -- also served at 100x100)**
+   -- esportsdesk's own UI "no photo" placeholder, baked into the HTML, not
+   a fetch-layer artifact. This is genuinely indistinguishable from a real
    photo by status/content-type/decodability alone. Caught live during dev:
    Pure NZ Admirals #26 Benjamin De Jonge's naive guess AND his profile-page
    fallback BOTH resolved to `PureNZAdmirals2000x2000.jpg` (100x100).
-   Fix: `_is_plausible_headshot()` requires `height > width` (strict
-   portrait) and `width >= 40`. Real headshots are portrait (~600x750 down
-   to ad-hoc 150x199 uploads); the placeholder is square. This heuristic is
-   applied uniformly to both the naive-guess and profile-fallback paths.
+   **First fix attempt (WRONG, since corrected):** `_is_plausible_headshot()`
+   required `height > width` (strict portrait), reasoning real headshots are
+   always portrait. This misclassified a REAL photo as a placeholder:
+   SkyCity Stampede's Lachlan Frear has a genuine 600x600 SQUARE headshot
+   (`LachlanFrear.jpg`, confirmed via his profile page's largeHeadshot),
+   caught during acceptance-criteria spot-checking when Stampede's hit rate
+   (4/34) was anomalously low next to every other NZIHL team (70-90%).
+   **Actual fix:** size, not aspect ratio, is what distinguishes the two --
+   `_is_plausible_headshot()` now requires BOTH dimensions >= 150px
+   (`_MIN_PLAUSIBLE_DIMENSION`). The placeholder is consistently exactly
+   100x100 across every team/filename observed; the smallest confirmed-real
+   photo is 150x199/150x200 (Dunedin-style ad-hoc uploads) -- the cutoff
+   sits in the comfortable gap between the two. Applied uniformly to both
+   the naive-guess and profile-fallback paths.
    **If a future check ever needs to special-case a specific team's
-   placeholder image by hash instead of by shape, that's the fallback plan
-   -- shape-based rejection was chosen first because it generalizes without
+   placeholder image by hash instead of by size, that's the fallback plan
+   -- size-based rejection was chosen first because it generalizes without
    needing to catalog every team's placeholder.**
+   **Lesson for next time a "some teams have way lower coverage than
+   others" pattern shows up: don't assume it's real (teams genuinely not
+   uploading photos) without spot-checking a specific miss's actual
+   profile-page largeHeadshot URL first -- the anomaly was the tell that a
+   validation heuristic itself was wrong, not the underlying data.**
 
 **Idempotency / no-diff-on-unchanged-run:** `photos.normalize_to_jpg()`
 does NOT re-encode a source image that's already a JPEG -- it returns the
