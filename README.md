@@ -170,6 +170,36 @@ All tests run against fixtures and mocks -- no live network required. The
 CI workflow additionally does a real end-to-end scrape as part of every
 run, so upstream HTML drift surfaces as a workflow failure.
 
+## Robustness (learned live, during acceptance testing)
+
+Two upstream quirks surfaced only once this ran against every real team,
+not just a couple during development:
+
+- **esportsdesk occasionally returns a 200 with an unexpectedly short/empty
+  stats page** under sustained request volume -- not an HTTP-level failure,
+  just a "successful" response with much less content than expected.
+  `scraper.scrape_team()` retries the whole team fetch (up to 3 attempts,
+  backoff) if a team parses to zero skaters AND zero goalies, since a real
+  rostered team is never actually empty. `http.py`'s `fetch_text`/
+  `fetch_binary` separately retry on network-level exceptions. Caught live:
+  Auckland Steel was recorded with only 3 people (should be ~37) in the
+  first production run.
+- **A real headshot can be square, not just portrait.** An earlier version
+  of `_is_plausible_headshot()` rejected anything non-portrait, on the
+  assumption real photos are always portrait (~600x750+) and esportsdesk's
+  placeholder is a square crop. That logic misclassified SkyCity Stampede's
+  Lachlan Frear's genuine 600x600 square headshot as a placeholder --
+  caught because Stampede's hit rate (4/34) was a visible outlier next to
+  every other NZIHL team (70-90%). Fixed to reject by **size** instead
+  (both dimensions >= 150px) -- the placeholder is consistently exactly
+  100x100 regardless of which team/filename serves it.
+
+`manifest.json`'s top-level `generated_at` (and the gallery's footer, which
+echoes it) is **date granularity, not a full timestamp** -- a full
+timestamp would "change" on every single run and defeat the "no real
+changes -> empty git diff" idempotency contract even when zero photos
+actually changed.
+
 ## Automation
 
 Runs weekly, Thursday 19:00 UTC (Friday 07:00 NZST winter / 08:00 NZDT
