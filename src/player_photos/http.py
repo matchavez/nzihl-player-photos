@@ -51,18 +51,44 @@ def _throttle() -> None:
     _last_request_at = time.monotonic()
 
 
-def fetch_text(url: str, *, timeout: int = 30) -> str:
-    """GET `url`, throttled, and return the response text. Raises on non-2xx."""
-    _throttle()
-    resp = session().get(url, timeout=timeout)
-    resp.raise_for_status()
-    return resp.text
+_MAX_RETRIES = 3
+_RETRY_BACKOFF_SECONDS = 2.0
 
 
-def fetch_binary(url: str, *, timeout: int = 30) -> requests.Response:
+def fetch_text(url: str, *, timeout: int = 30, retries: int = _MAX_RETRIES) -> str:
+    """GET `url`, throttled, and return the response text. Retries on
+    network errors / non-2xx (esportsdesk is occasionally flaky under
+    sustained request volume — observed during development: a team's
+    stats page intermittently comes back with an unexpectedly short/empty
+    body despite a normal 200 status). Raises after exhausting retries."""
+    last_exc: Exception | None = None
+    for attempt in range(retries):
+        _throttle()
+        try:
+            resp = session().get(url, timeout=timeout)
+            resp.raise_for_status()
+            return resp.text
+        except requests.RequestException as e:
+            last_exc = e
+            if attempt < retries - 1:
+                time.sleep(_RETRY_BACKOFF_SECONDS * (attempt + 1))
+    raise last_exc  # type: ignore[misc]
+
+
+def fetch_binary(url: str, *, timeout: int = 30, retries: int = _MAX_RETRIES) -> requests.Response:
     """GET `url`, throttled, and return the raw Response (status not raised,
     caller decides success — esportsdesk returns 200 with an HTML error page
     body for a missing image rather than a real 404, so status alone can't
-    be trusted; check Content-Type / magic bytes instead)."""
-    _throttle()
-    return session().get(url, timeout=timeout)
+    be trusted; check Content-Type / magic bytes instead). Retries only on
+    network-level exceptions, not on any particular status code (a real
+    404-equivalent 200 is a valid, final answer, not a transient failure)."""
+    last_exc: Exception | None = None
+    for attempt in range(retries):
+        _throttle()
+        try:
+            return session().get(url, timeout=timeout)
+        except requests.RequestException as e:
+            last_exc = e
+            if attempt < retries - 1:
+                time.sleep(_RETRY_BACKOFF_SECONDS * (attempt + 1))
+    raise last_exc  # type: ignore[misc]

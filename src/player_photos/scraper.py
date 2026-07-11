@@ -11,6 +11,7 @@ Source contract (see memory: nzihl-roster-source, nzihl-roster-coaches-feature):
 from __future__ import annotations
 
 import re
+import time
 from dataclasses import dataclass
 from html import unescape
 from urllib.parse import urlencode
@@ -161,10 +162,31 @@ def parse_coaches(html: str, team: Team) -> list[Person]:
 
 def scrape_team(team: Team) -> list[Person]:
     """Players + goalies + coaches for one team. `team.team_id` must be set
-    (callers should skip placeholder teams with team_id=None)."""
+    (callers should skip placeholder teams with team_id=None).
+
+    esportsdesk occasionally returns a 200 with an unexpectedly empty/short
+    stats page under sustained request volume (observed live during
+    development -- not an HTTP-level failure http.py's own retry would
+    catch, since the response itself is a "successful" 200). A real NZIHL/
+    NZWIHL team is never rostered with zero skaters AND zero goalies, so
+    that specific combination is treated as a signal to re-fetch rather
+    than trusted as "this team truly has no players."
+    """
     assert team.team_id is not None
-    stats_html = fetch_team_html(team)
-    people = parse_skaters(stats_html, team) + parse_goalies(stats_html, team)
+
+    skaters: list[Person] = []
+    goalies: list[Person] = []
+    attempts = 3
+    for attempt in range(attempts):
+        stats_html = fetch_team_html(team)
+        skaters = parse_skaters(stats_html, team)
+        goalies = parse_goalies(stats_html, team)
+        if skaters or goalies:
+            break
+        if attempt < attempts - 1:
+            time.sleep(2.0 * (attempt + 1))
+
+    people = skaters + goalies
     try:
         personnel_html = fetch_personnel_html(team)
         people += parse_coaches(personnel_html, team)
