@@ -47,13 +47,23 @@ def now_iso() -> str:
 
 
 def new_manifest() -> dict:
-    return {"generated_at": now_iso(), "leagues": {}}
+    # `generated_at` is deliberately DATE granularity (not a full
+    # wall-clock timestamp) even though `now_iso()` is available above.
+    # A full timestamp would change on literally every run, which breaks
+    # the "a run with no real changes produces an empty git diff" contract
+    # -- two same-day runs (e.g. testing workflow_dispatch twice in a row)
+    # must commit nothing when nothing actually changed. Daily granularity
+    # matches `last_verified`'s existing precision, so this only "moves"
+    # once a day at most, and only within a commit that already has a real
+    # reason to exist (or is itself the only thing that changed, in which
+    # case a same-day rerun is still a true no-op).
+    return {"generated_at": today_iso(), "leagues": {}}
 
 
 def load_or_new(existing: dict | None) -> dict:
     if existing:
         m = dict(existing)
-        m["generated_at"] = now_iso()
+        m["generated_at"] = today_iso()
         m.setdefault("leagues", {})
         return m
     return new_manifest()

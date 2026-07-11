@@ -76,3 +76,17 @@ def test_person_key_players_vs_coaches():
     coach_key = manifest_mod.person_key("nzihl", team, "coach", None, "Blake", "Jackson", "Head Coach")
     assert player_key == "nzihl:ADM:player:123"
     assert coach_key == "nzihl:ADM:coach:Blake|Jackson|Head Coach"
+
+
+def test_generated_at_is_date_granularity_not_full_timestamp():
+    # Regression test: generated_at previously used a full wall-clock
+    # timestamp (now_iso()), which meant it changed on literally every
+    # run and broke the "no real changes -> empty git diff" contract --
+    # caught live when a second same-day workflow_dispatch still produced
+    # a 2-file commit (manifest.json + index.html) with zero photo changes.
+    # Two manifests built on the "same day" (mocked via load_or_new twice)
+    # must have identical generated_at.
+    m1 = manifest_mod.new_manifest()
+    m2 = manifest_mod.load_or_new(m1)
+    assert m1["generated_at"] == m2["generated_at"]
+    assert len(m1["generated_at"]) == len("2026-07-11")  # date, not datetime
