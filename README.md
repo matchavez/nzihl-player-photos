@@ -34,7 +34,11 @@ Each run:
    last-verified dates, and an `active` flag.
 4. Regenerates `index.html`, a static gallery (one section per team in
    live standings order, thumbnail grid, initials placeholders for missing
-   photos, a per-team missing-photo count) -- served by GitHub Pages.
+   photos, a per-team missing-photo count) -- served by GitHub Pages. Each
+   active player/goalie also gets a small stat line under their photo
+   (e.g. `10 PTS (4G 6A)` or `6-1, 3.14 GAA, .880 SV%`), pulled fresh from
+   `nzihl-broadcast-rosters` / `nzwihl-broadcast-rosters`' `stats.json` at
+   build time and joined on team + jersey number (see `memory.md`).
 
 A run that finds no new/changed photos produces an **empty git diff** --
 files are only rewritten when their content actually changes (hash-compared

@@ -140,3 +140,36 @@ force-build trick. Verified green via the Actions API.
 Keep this file and README.md in sync with every meaningful change. If they
 drift, flag it to Mat and get approval before publishing the sync edit
 (per [[repo-memory-md-convention]]).
+
+## Stats-under-photo (2026-07-13)
+
+Gallery cards now show a small stat line under each active skater/goalie's
+photo, e.g. "10 PTS (4G 6A)" or "6-1, 3.14 GAA, .880 SV%". New module
+`stats.py` fetches `stats.json` fresh (at gallery-build time, not persisted
+into `manifest.json`) from both roster repos' raw GitHub content:
+`matchavez/nzihl-broadcast-rosters` and `matchavez/nzwihl-broadcast-rosters`
+(see [[nzihl-stats-json-consolidation]] for why that file is the canonical
+G/A/PTS + goalie-record source). Deliberately NOT folded into
+`manifest.json` -- that file's contract is the photo/hash record, and stats
+change on a different cadence than photos.
+
+**Join key: `(league, team short_code, jersey number)`, not name.** Names
+need the override table to line up ([[nzihl-player-name-overrides]]);
+number is already what `stats.json` itself uses as its natural key, so
+joining on it sidesteps every name-matching edge case for free.
+
+**Players with `gp == 0` get no stat line at all** (not a "0-0-0" line) --
+cleaner for guys who are rostered/dressed but haven't played yet. A fetch
+failure for one league degrades gracefully: that league's cards just show
+no stat lines rather than breaking the whole gallery build.
+
+**Bonus fix while in `gallery.py`:** the team-head `<span class="code">`
+badge had been silently rendering blank for every real team (`team_block`
+never actually carried a `short_code` key -- only the registry-fallback
+default dict for a missing team did). Threaded the loop's known `code`
+value down into `_team_section` explicitly instead of reading a key that
+was never set. Visible now: `Pure NZ Admirals ADM` etc.
+
+Regenerated `index.html` locally against the live manifest + a fresh
+`stats.json`/standings fetch (same code path the weekly Action runs) and
+committed the result rather than waiting for Thursday's cron.

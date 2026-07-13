@@ -10,7 +10,7 @@ import json
 import sys
 from pathlib import Path
 
-from . import gallery, manifest as manifest_mod, overrides, photos, scraper
+from . import gallery, manifest as manifest_mod, overrides, photos, scraper, stats as stats_mod
 from .teams import ALL_TEAMS, LEAGUE_DISPLAY_NAMES, LEAGUES
 
 
@@ -133,7 +133,9 @@ def run(output_dir: Path, teams_filter: set[str] | None = None) -> dict:
     manifest_path.write_text(json.dumps(man, indent=2, sort_keys=True, ensure_ascii=False) + "\n")
 
     league_order = build_league_order()
-    gallery_html = gallery.build_gallery_html(man, league_order, LEAGUE_DISPLAY_NAMES)
+    print("Fetching stats.json from both roster repos for gallery stat lines...")
+    stats_index = stats_mod.build_stats_index()
+    gallery_html = gallery.build_gallery_html(man, league_order, LEAGUE_DISPLAY_NAMES, stats_index)
     (output_dir / "index.html").write_text(gallery_html)
 
     print(

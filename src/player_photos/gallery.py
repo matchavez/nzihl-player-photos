@@ -34,6 +34,7 @@ section.team{margin:22px 0;padding:16px;background:var(--panel);border:1px solid
 .thumb.placeholder{display:flex;align-items:center;justify-content:center;font-size:26px;font-weight:700;color:var(--muted);}
 .pname{font-size:12px;margin-top:6px;line-height:1.25;}
 .pnum{color:var(--muted);font-size:11px;}
+.pstat{color:var(--accent);font-size:10px;margin-top:2px;line-height:1.25;}
 .inactive{opacity:.4;}
 .inactive .pname::after{content:" (inactive)";color:var(--missink);font-size:10px;}
 .empty-note{color:var(--muted);font-size:12.5px;padding:6px 2px;}
@@ -47,7 +48,7 @@ def _initials(first: str, last: str) -> str:
     return (a + b) or "?"
 
 
-def _person_card(entry: dict) -> str:
+def _person_card(entry: dict, stat_line: str | None = None) -> str:
     name = html_lib.escape(entry.get("name", ""))
     number = entry.get("number")
     role = entry.get("role")
@@ -61,14 +62,15 @@ def _person_card(entry: dict) -> str:
         first_last = entry.get("name", "").split(" ", 1)
         initials = _initials(first_last[0] if first_last else "", first_last[1] if len(first_last) > 1 else "")
         img = f'<div class="thumb placeholder">{html_lib.escape(initials)}</div>'
+    stat_html = f'<div class="pstat">{html_lib.escape(stat_line)}</div>' if stat_line else ""
     return (
         f'<div class="{cls}">{img}'
         f'<div class="pname">{name}</div>'
-        f'<div class="pnum">{sub}</div></div>'
+        f'<div class="pnum">{sub}</div>{stat_html}</div>'
     )
 
 
-def _team_section(league_key: str, team_block: dict) -> str:
+def _team_section(league_key: str, short_code: str, team_block: dict, stats_index: dict | None = None) -> str:
     people = list(team_block.get("people", {}).values())
     # active first, then inactive; players before coaches; then by number/name
     def sort_key(p):
@@ -86,7 +88,11 @@ def _team_section(league_key: str, team_block: dict) -> str:
     active_people = [p for p in people if p.get("active", True)]
     missing = sum(1 for p in active_people if not p.get("photo"))
     badge_cls = "missing-badge zero" if missing == 0 else "missing-badge"
-    cards = "".join(_person_card(p) for p in people) or '<p class="empty-note">No roster data yet.</p>'
+    def _stat_for(p):
+        if not stats_index or p.get("role") != "player":
+            return None
+        return stats_index.get((league_key, short_code, str(p.get("number") or "")))
+    cards = "".join(_person_card(p, _stat_for(p)) for p in people) or '<p class="empty-note">No roster data yet.</p>'
     team_id_note = ""
     if team_block.get("no_team_id"):
         cards = '<p class="empty-note">Not fielding a team this season -- no roster to scrape yet.</p>'
@@ -96,14 +102,14 @@ def _team_section(league_key: str, team_block: dict) -> str:
     return f"""
   <section class="team" id="{anchor}">
     <div class="team-head">
-      <h3>{html_lib.escape(team_block.get('display_name',''))}<span class="code">{html_lib.escape(team_block.get('short_code',''))}</span></h3>
+      <h3>{html_lib.escape(team_block.get('display_name',''))}<span class="code">{html_lib.escape(short_code)}</span></h3>
       <span class="{badge_cls}">{missing} missing photo{'s' if missing != 1 else ''}</span>
     </div>
     <div class="grid">{cards}</div>
   </section>"""
 
 
-def build_gallery_html(manifest: dict, league_order: dict[str, list[str]], league_display: dict[str, str]) -> str:
+def build_gallery_html(manifest: dict, league_order: dict[str, list[str]], league_display: dict[str, str], stats_index: dict | None = None) -> str:
     leagues = manifest.get("leagues", {})
     nav_links = []
     body_sections = []
@@ -122,7 +128,7 @@ def build_gallery_html(manifest: dict, league_order: dict[str, list[str]], leagu
                     total_active += 1
                     if not p.get("photo"):
                         total_missing += 1
-            body_sections.append(_team_section(league_key, team_block))
+            body_sections.append(_team_section(league_key, code, team_block, stats_index))
 
     generated = html_lib.escape(manifest.get("generated_at", ""))
     return f"""<!doctype html>
