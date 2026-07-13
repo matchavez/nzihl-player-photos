@@ -10,7 +10,7 @@ import json
 import sys
 from pathlib import Path
 
-from . import gallery, manifest as manifest_mod, photos, scraper
+from . import gallery, manifest as manifest_mod, overrides, photos, scraper
 from .teams import ALL_TEAMS, LEAGUE_DISPLAY_NAMES, LEAGUES
 
 
@@ -150,6 +150,9 @@ def main(argv=None) -> int:
     args = parser.parse_args(argv)
 
     teams_filter = {c.strip().upper() for c in args.teams_only.split(",") if c.strip()} or None
+    # Single source of truth for player-name corrections (see overrides.py) --
+    # best-effort, falls back to the hardcoded snapshot on any failure.
+    overrides.load_remote_overrides()
     run(Path(args.output_dir), teams_filter)
     return 0
 

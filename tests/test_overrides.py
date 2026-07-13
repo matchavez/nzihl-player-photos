@@ -53,3 +53,64 @@ def test_strip_parentheticals_generic_trailing_group():
 def test_single_token_name():
     first, last = split_first_last("Cher")
     assert (first, last) == ("", "Cher")
+
+
+def test_load_remote_overrides_success_updates_module_state(monkeypatch):
+    from player_photos import overrides as ov
+
+    fallback_multi = set(ov.MULTI_WORD_SURNAMES)
+    fallback_so = dict(ov.SURNAME_OVERRIDES)
+    fallback_ps = list(ov.PARENTHETICAL_STRIP)
+
+    class FakeResp:
+        def raise_for_status(self):
+            pass
+
+        def json(self):
+            return {
+                "multi_word_surnames": ["hayward jones", "de jonge", "van der berg"],
+                "team_jersey_overrides": [
+                    {"league": "nzwihl", "team_id": 675637, "jersey": "3",
+                     "first": "Reagyn", "last": "Shattock"},
+                ],
+                "parenthetical_strips": [
+                    {"find": r"Shattock\s*\(\s*Niskakoski\s*\)", "replace": "Shattock"},
+                ],
+            }
+
+    def fake_get(url, timeout=None):
+        assert "name-overrides.json" in url
+        return FakeResp()
+
+    monkeypatch.setattr("requests.get", fake_get)
+    try:
+        ok = ov.load_remote_overrides()
+        assert ok is True
+        assert ov.MULTI_WORD_SURNAMES == {"hayward jones", "de jonge", "van der berg"}
+        assert ov.SURNAME_OVERRIDES == {("nzwihl", 675637, "3"): ("Shattock", "Reagyn")}
+        # still functions correctly end-to-end after the swap
+        assert ov.normalize_name("Reagyn Shattock (Niskakoski)", "nzwihl", 675637, "3") == ("Reagyn", "Shattock")
+    finally:
+        ov.MULTI_WORD_SURNAMES = fallback_multi
+        ov.SURNAME_OVERRIDES = fallback_so
+        ov.PARENTHETICAL_STRIP = fallback_ps
+
+
+def test_load_remote_overrides_failure_keeps_fallback(monkeypatch):
+    from player_photos import overrides as ov
+
+    fallback_multi = set(ov.MULTI_WORD_SURNAMES)
+    fallback_so = dict(ov.SURNAME_OVERRIDES)
+    fallback_ps = list(ov.PARENTHETICAL_STRIP)
+
+    def fake_get(url, timeout=None):
+        raise ConnectionError("simulated network failure")
+
+    monkeypatch.setattr("requests.get", fake_get)
+    ok = ov.load_remote_overrides()
+    assert ok is False
+    # module state untouched -- an on-air/scheduled-scrape must never regress
+    # just because this one extra fetch failed
+    assert ov.MULTI_WORD_SURNAMES == fallback_multi
+    assert ov.SURNAME_OVERRIDES == fallback_so
+    assert ov.PARENTHETICAL_STRIP == fallback_ps

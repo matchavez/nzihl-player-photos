@@ -9,8 +9,18 @@ silently stay broken here. See memory: nzihl-player-name-overrides.
 person's display name in manifest.json/the gallery AND the filename we
 save the photo under — so De Jonge and Shattock resolve to clean names
 regardless of how esportsdesk mangles the raw scrape.
+
+SINGLE SOURCE OF TRUTH (2026-07-13): the constants below are only the
+FALLBACK snapshot. `load_remote_overrides()` fetches the real canonical
+data from nzihl-broadcast-assets/assets/name-overrides.json and replaces
+them in place; call it once near the top of cli.main(). If that fetch
+fails for any reason, these hardcoded values keep the scrape working
+exactly as before -- a name-overrides.json outage should never break a
+scheduled scrape.
 """
 from __future__ import annotations
+
+import re
 
 # (league, team_id, jersey) -> (override_last, override_first | None)
 SURNAME_OVERRIDES: dict[tuple[str, int, str], tuple[str, str | None]] = {
@@ -33,16 +43,16 @@ MULTI_WORD_SURNAMES = {"hayward jones", "de jonge"}
 
 # Unwanted parenthetical add-ons (maiden names, nicknames) that are NOT part
 # of the real surname — stripped from the raw scraped title before any
-# splitting happens. Ported from the `matchavez/hockey` live-overlay fix.
-PARENTHETICAL_STRIP = [
-    ("Shattock (Niskakoski)", "Shattock"),
-    ("Shattock(Niskakoski)", "Shattock"),
+# splitting happens. Regex (pattern, replacement) pairs, case-insensitive.
+# Ported from the `matchavez/hockey` live-overlay fix.
+PARENTHETICAL_STRIP: list[tuple[str, str]] = [
+    (r"Shattock\s*\(\s*Niskakoski\s*\)", "Shattock"),
 ]
 
 
 def strip_parentheticals(full_name: str) -> str:
-    for raw, clean in PARENTHETICAL_STRIP:
-        full_name = full_name.replace(raw, clean)
+    for pattern, clean in PARENTHETICAL_STRIP:
+        full_name = re.sub(pattern, clean, full_name, flags=re.IGNORECASE)
     # Generic fallback: drop any trailing "(...)" group not caught above.
     if "(" in full_name and full_name.rstrip().endswith(")"):
         full_name = full_name.split("(")[0].strip()
@@ -105,3 +115,50 @@ def normalize_name(full_name: str, league: str, team_id: int, jersey: str) -> tu
             first = override_first
 
     return first, last
+
+
+NAME_OVERRIDES_URL = (
+    "https://raw.githubusercontent.com/matchavez/nzihl-broadcast-assets/"
+    "main/assets/name-overrides.json"
+)
+
+
+def load_remote_overrides(*, timeout: int = 10) -> bool:
+    """Fetch the canonical name-overrides.json (single source of truth across
+    every broadcast-asset repo -- see matchavez/hockey's
+    nzihl_player_name_overrides memory) and replace this module's
+    MULTI_WORD_SURNAMES / SURNAME_OVERRIDES / PARENTHETICAL_STRIP in place.
+
+    Call once near the top of cli.main(), before any scraping starts. On any
+    failure (network, bad JSON, etc.) this leaves the hardcoded fallback
+    values above untouched and returns False -- a scheduled scrape must never
+    hard-fail just because this one extra fetch didn't land.
+    """
+    global MULTI_WORD_SURNAMES, SURNAME_OVERRIDES, PARENTHETICAL_STRIP
+    import requests
+
+    try:
+        resp = requests.get(NAME_OVERRIDES_URL, timeout=timeout)
+        resp.raise_for_status()
+        cfg = resp.json()
+    except Exception as exc:  # noqa: BLE001 -- deliberately broad, see docstring
+        print(f"warning: could not fetch name-overrides.json ({exc}); using built-in fallback")
+        return False
+
+    words = cfg.get("multi_word_surnames")
+    if words:
+        MULTI_WORD_SURNAMES = {str(w).lower() for w in words}
+
+    team_jersey = cfg.get("team_jersey_overrides")
+    if team_jersey is not None:
+        merged: dict[tuple[str, int, str], tuple[str, str | None]] = {}
+        for entry in team_jersey:
+            key = (str(entry["league"]), int(entry["team_id"]), str(entry["jersey"]))
+            merged[key] = (entry["last"], entry.get("first"))
+        SURNAME_OVERRIDES = merged
+
+    strips = cfg.get("parenthetical_strips")
+    if strips is not None:
+        PARENTHETICAL_STRIP = [(entry["find"], entry["replace"]) for entry in strips]
+
+    return True
