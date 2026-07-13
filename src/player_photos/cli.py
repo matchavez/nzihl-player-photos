@@ -1,7 +1,14 @@
 """Orchestration: scrape every team -> resolve photos -> write manifest.json
--> write index.html gallery -> write only new/changed photo files.
+-> write a redirect stub at index.html -> write only new/changed photo files.
 
 Usage: python -m player_photos [--output-dir .] [--teams-only ADM,CRD]
+
+Note (2026-07-13): this repo used to also render a full browsable gallery
+into index.html (team order from live standings, per-person cards, etc).
+That was retired in favor of the single consolidated view at
+https://matchavez.com/hockey/warehouse/#photos -- see gallery.py's
+docstring. index.html is now just a redirect stub, so the standings-order
+fetch that only existed to sort that gallery's team sections is gone too.
 """
 from __future__ import annotations
 
@@ -10,31 +17,8 @@ import json
 import sys
 from pathlib import Path
 
-from . import gallery, manifest as manifest_mod, overrides, photos, scraper, stats as stats_mod
-from .teams import ALL_TEAMS, LEAGUE_DISPLAY_NAMES, LEAGUES
-
-
-def _stat_dict(t):
-    return {"display_name": t.display_name, "short_code": t.short_code, "slug": t.slug}
-
-
-def build_league_order() -> dict[str, list[str]]:
-    """Best-effort dynamic team order per league from standings.cfm; falls
-    back to the registry's declared order if the fetch/parse fails."""
-    order: dict[str, list[str]] = {}
-    for league_key, teams in LEAGUES.items():
-        default_order = [t.short_code for t in teams]
-        fielding_teams = [t for t in teams if t.team_id is not None]
-        placeholder_codes = [t.short_code for t in teams if t.team_id is None]
-        try:
-            cid, lid = fielding_teams[0].client_id, fielding_teams[0].league_id
-            html = scraper.fetch_standings_html(cid, lid)
-            live_order = scraper.parse_standings_order(html, fielding_teams)
-            order[league_key] = live_order + placeholder_codes
-        except Exception as e:
-            print(f"  [warn] standings order fetch failed for {league_key}: {e}", file=sys.stderr)
-            order[league_key] = default_order
-    return order
+from . import gallery, manifest as manifest_mod, overrides, photos, scraper
+from .teams import ALL_TEAMS, LEAGUE_DISPLAY_NAMES
 
 
 def run(output_dir: Path, teams_filter: set[str] | None = None) -> dict:
@@ -132,11 +116,7 @@ def run(output_dir: Path, teams_filter: set[str] | None = None) -> dict:
 
     manifest_path.write_text(json.dumps(man, indent=2, sort_keys=True, ensure_ascii=False) + "\n")
 
-    league_order = build_league_order()
-    print("Fetching stats.json from both roster repos for gallery stat lines...")
-    stats_index = stats_mod.build_stats_index()
-    gallery_html = gallery.build_gallery_html(man, league_order, LEAGUE_DISPLAY_NAMES, stats_index)
-    (output_dir / "index.html").write_text(gallery_html)
+    (output_dir / "index.html").write_text(gallery.build_gallery_html())
 
     print(
         f"Done. {photos_written} photo(s) written, {photos_unchanged} unchanged, "

@@ -173,3 +173,42 @@ was never set. Visible now: `Pure NZ Admirals ADM` etc.
 Regenerated `index.html` locally against the live manifest + a fresh
 `stats.json`/standings fetch (same code path the weekly Action runs) and
 committed the result rather than waiting for Thursday's cron.
+
+## Gallery retired in favor of hockey/warehouse/#photos (2026-07-13, same day)
+
+Mat pointed out the stats-under-photo feature above (and the gallery in
+general) was **duplicating** `matchavez/hockey`'s `warehouse/index.html`,
+which already fetched this repo's `manifest.json` live to render its own
+photo section. Rather than maintain the same join logic in two places
+(Python here, JS there), the decision was: **one browsable view, and it's
+the warehouse page.** This repo goes back to being a pure data source.
+
+**What changed:**
+- `gallery.py` no longer renders a gallery at all -- `build_gallery_html()`
+  now takes and ignores any args and just returns a static redirect stub
+  (meta-refresh + canonical link) pointing at
+  `https://matchavez.com/hockey/warehouse/#photos`. `stats.py` (the
+  same-day addition described above) was deleted outright -- that join
+  logic now lives in `warehouse/index.html`'s JS instead (`fetchStatsIndex`
+  / `skaterLine` / `goalieLine`, same join key: league+short_code+number,
+  same gp===0-means-no-line rule).
+- `cli.py`'s `build_league_order()` function was deleted too -- it existed
+  solely to sort the old gallery's team sections by live standings order,
+  and nothing else needed it.
+- `index.html` is committed as the redirect stub (not regenerated per-run
+  from manifest data anymore, though `cli.run()` still writes it every run
+  via `gallery.build_gallery_html()` -- cheap, no network dependency, and
+  keeps the file existing for `test_cli.py`'s existing assertion).
+- README.md rewritten to lead with "this is a data source, not a browsable
+  page" and point at the warehouse URL.
+
+**What did NOT change:** `manifest.json`, `photos/`, the weekly scrape --
+this repo's actual job. Anything that consumes `manifest.json` or
+`photos/*.jpg` directly via `raw.githubusercontent.com` (activity-banner,
+scorebug-l3, scoringleaders, lowerthirds, summary, startinglineup, and the
+warehouse page itself) is unaffected -- GitHub Pages still serves those
+files exactly as before; only the root `index.html` changed.
+
+See also `matchavez/hockey`'s own memory.md for the warehouse-side half of
+this change (stat-line JS added, portal's duplicate "Player Photos" card
+removed, all Photo Gallery buttons repointed).

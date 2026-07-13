@@ -1,9 +1,17 @@
 # nzihl-player-photos
 
 Weekly warehouse of NZIHL/NZWIHL rostered players' and coaches' headshots,
-scraped from esportsdesk into a committed, browsable, version-controlled
-archive -- so broadcast graphics can pull a photo from this repo instead of
-live-fetching it from esportsdesk during a broadcast.
+scraped from esportsdesk into a committed, version-controlled archive -- so
+broadcast graphics can pull a photo from this repo instead of live-fetching
+it from esportsdesk during a broadcast.
+
+**This repo is a data source, not a browsable page.** It used to also
+publish its own gallery UI via GitHub Pages; that was retired 2026-07-13 in
+favor of a single consolidated view at
+[matchavez.com/hockey/warehouse/#photos](https://matchavez.com/hockey/warehouse/#photos),
+which fetches this repo's `manifest.json` live (plus stat lines from the
+roster repos' `stats.json`). This repo's own Pages URL now just redirects
+there. Browse photos at the warehouse link above, not here.
 
 ## Why this exists
 
@@ -12,10 +20,10 @@ photos on the fly (a naive filename guess, with a profile-page fallback for
 ad-hoc filenames). That works, but it means every photo lookup is a live
 network round-trip during a broadcast, with no record of who has a real
 photo and who doesn't. This repo runs the same kind of resolution logic
-**once a week**, saves the result as real files, and publishes a gallery you
-can check before a broadcast (or send to a team as a "we're missing your
-photo" chase-list). Migrating the live overlays to consume this warehouse
-instead of live-fetching is a deliberate follow-up, not part of this repo.
+**once a week** and saves the result as real files + a manifest that the
+warehouse page (and, eventually, the live overlays themselves) can consume
+instead of live-fetching. Migrating the live overlays to consume this
+warehouse is a deliberate follow-up, not part of this repo.
 
 ## What it produces
 
@@ -32,13 +40,10 @@ Each run:
 3. Writes `manifest.json`: per league -> per team -> per person, with name,
    number/position, photo path (or null), source URL, sha256, first-seen /
    last-verified dates, and an `active` flag.
-4. Regenerates `index.html`, a static gallery (one section per team in
-   live standings order, thumbnail grid, initials placeholders for missing
-   photos, a per-team missing-photo count) -- served by GitHub Pages. Each
-   active player/goalie also gets a small stat line under their photo
-   (e.g. `10 PTS (4G 6A)` or `6-1, 3.14 GAA, .880 SV%`), pulled fresh from
-   `nzihl-broadcast-rosters` / `nzwihl-broadcast-rosters`' `stats.json` at
-   build time and joined on team + jersey number (see `memory.md`).
+4. Writes `index.html` as a plain redirect stub to
+   [matchavez.com/hockey/warehouse/#photos](https://matchavez.com/hockey/warehouse/#photos)
+   -- see "Why this exists" above. Not a data product; just keeps this
+   repo's old Pages URL from 404ing.
 
 A run that finds no new/changed photos produces an **empty git diff** --
 files are only rewritten when their content actually changes (hash-compared
@@ -129,8 +134,9 @@ Not fielding a team in the 2026 NZIHL season (absent from both the live
 `TEAMS` nav and `standings.cfm` as of 2026-07-11) -- same "no teamID yet"
 state as the `TODO @publish` markers already in `matchavez/hockey`'s
 scorebug/summary overlays. Kept in the team registry with `team_id=None` so
-the gallery renders a "not fielding a team this season" placeholder instead
-of silently omitting the franchise. Fill in `team_id` in
+consumers (the warehouse page, `manifest.json`'s `no_team_id` flag) can
+render a "not fielding a team this season" placeholder instead of silently
+omitting the franchise. Fill in `team_id` in
 `src/player_photos/teams.py` the moment Mako plays a game.
 
 ## Project layout
@@ -142,11 +148,11 @@ src/player_photos/
   scraper.py     # parses stats_1team.cfm / personnel.cfm / standings.cfm
   photos.py      # headshot resolution (naive guess + profile-page fallback)
   manifest.py    # manifest.json read/merge/upsert, filename normalization
-  gallery.py     # static index.html generator
-  cli.py         # orchestration: scrape -> resolve -> write -> manifest -> gallery
+  gallery.py     # index.html generator -- now just a redirect stub to hockey/warehouse
+  cli.py         # orchestration: scrape -> resolve -> write -> manifest -> redirect stub
 .github/workflows/build-photos.yml   # weekly cron (Thu 19:00 UTC) + workflow_dispatch
-manifest.json    # committed per-person photo manifest
-index.html       # committed gallery (served by GitHub Pages)
+manifest.json    # committed per-person photo manifest -- the actual data product
+index.html       # redirect stub -> hockey/warehouse/#photos (served by GitHub Pages)
 photos/          # committed headshots, <league>/<team_slug>/<Name>.jpg
 tests/           # fixture + mock-driven unit tests, no live network needed
 ```
@@ -198,8 +204,7 @@ not just a couple during development:
   (both dimensions >= 150px) -- the placeholder is consistently exactly
   100x100 regardless of which team/filename serves it.
 
-`manifest.json`'s top-level `generated_at` (and the gallery's footer, which
-echoes it) is **date granularity, not a full timestamp** -- a full
+`manifest.json`'s top-level `generated_at` is **date granularity, not a full timestamp** -- a full
 timestamp would "change" on every single run and defeat the "no real
 changes -> empty git diff" idempotency contract even when zero photos
 actually changed.
@@ -223,4 +228,6 @@ profile-page fallbacks, image downloads) share one throttle enforcing
   same esportsdesk platform/team IDs, source of the name-override
   conventions ported here.
 - **matchavez/hockey** -- the live broadcast overlays this warehouse is
-  eventually meant to back; not yet wired up (deliberate follow-up).
+  eventually meant to back (not yet wired up, deliberate follow-up), and
+  home of `warehouse/index.html`, the actual browsable UI for this repo's
+  photos (see top of this file).
