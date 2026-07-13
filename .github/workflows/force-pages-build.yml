@@ -1,0 +1,27 @@
+name: Force Pages build
+
+# This repo serves GitHub Pages via the legacy build (Settings > Pages > "Deploy from a
+# branch"), not a custom Actions deployment -- and that legacy builder doesn't always
+# queue a fresh build on push. Confirmed missed/lagging builds multiple times (see
+# memory: nzihl-scoring-leaders-project, nzihl_activity_banner), previously worked
+# around by manually POSTing /pages/builds or pushing an empty commit. This workflow
+# does that POST automatically on every push to main, so Pages freshness never depends
+# on someone remembering the trick.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+permissions:
+  pages: write
+
+jobs:
+  force-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Request a fresh GitHub Pages build
+        run: |
+          curl -sf -X POST \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${{ github.repository }}/pages/builds"
