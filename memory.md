@@ -129,6 +129,12 @@ GitHub Actions run (no such per-call limit) for full-scale validation.
   the live overlays that are the eventual (not-yet-done) consumer of this
   warehouse.
 
+## Playoff-readiness audit (2026-07-13)
+See matchavez/hockey's playoff-readiness.md for the full cross-repo audit. Change made here:
+**.github/workflows/force-pages-build.yml** (new) -- POSTs /pages/builds on every push to main so
+this repo's GitHub Pages (legacy builder) never depends on someone remembering the manual
+force-build trick. Verified green via the Actions API.
+
 ## Sync note
 
 Keep this file and README.md in sync with every meaningful change. If they
