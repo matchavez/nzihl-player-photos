@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16",
+  "generated_at": "2026-07-23",
   "leagues": {
     "nzihl": {
       "display_name": "NZIHL",
@@ -10,7 +10,7 @@
             "nzihl:ADM:coach:Blake|Jackson|Head Coach": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Blake Jackson",
               "number": null,
               "photo": null,
@@ -23,7 +23,7 @@
             "nzihl:ADM:coach:Rodney|McMillin|Assistant Coach": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Rodney McMillin",
               "number": null,
               "photo": null,
@@ -36,7 +36,7 @@
             "nzihl:ADM:player:1937016": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Rico Clamor",
               "number": "31",
               "photo": "photos/nzihl/pure_nz_admirals/RicoClamor.jpg",
@@ -49,7 +49,7 @@
             "nzihl:ADM:player:1937087": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Owen Brown",
               "number": "44",
               "photo": "photos/nzihl/pure_nz_admirals/OwenBrown.jpg",
@@ -62,7 +62,7 @@
             "nzihl:ADM:player:1937088": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Jack Brown",
               "number": "43",
               "photo": "photos/nzihl/pure_nz_admirals/JackBrown.jpg",
@@ -75,7 +75,7 @@
             "nzihl:ADM:player:1937745": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Sebastian Chamberlin",
               "number": "7",
               "photo": "photos/nzihl/pure_nz_admirals/SebastianChamberlin.jpg",
@@ -88,7 +88,7 @@
             "nzihl:ADM:player:1937920": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Nash Hayward Jones",
               "number": "37",
               "photo": "photos/nzihl/pure_nz_admirals/NashHaywardJones.jpg",
@@ -101,7 +101,7 @@
             "nzihl:ADM:player:1938187": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Zachery Stephen",
               "number": "40",
               "photo": "photos/nzihl/pure_nz_admirals/ZacheryStephen.jpg",
@@ -114,7 +114,7 @@
             "nzihl:ADM:player:1938188": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Benjamin Stephen",
               "number": "23",
               "photo": "photos/nzihl/pure_nz_admirals/BenjaminStephen.jpg",
@@ -127,7 +127,7 @@
             "nzihl:ADM:player:1938189": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Sebastian Stephen",
               "number": "46",
               "photo": "photos/nzihl/pure_nz_admirals/SebastianStephen.jpg",
@@ -140,7 +140,7 @@
             "nzihl:ADM:player:1938223": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Lochlyn Henry",
               "number": "55",
               "photo": "photos/nzihl/pure_nz_admirals/LochlynHenry.jpg",
@@ -153,7 +153,7 @@
             "nzihl:ADM:player:1938224": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Scott Henry",
               "number": "28",
               "photo": "photos/nzihl/pure_nz_admirals/ScottHenry.jpg",
@@ -166,7 +166,7 @@
             "nzihl:ADM:player:1939375": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Stephen Mawson",
               "number": "36",
               "photo": "photos/nzihl/pure_nz_admirals/StephenMawson.jpg",
@@ -179,7 +179,7 @@
             "nzihl:ADM:player:1949571": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Vinny Cistrone",
               "number": "15",
               "photo": "photos/nzihl/pure_nz_admirals/VinnyCistrone.jpg",
@@ -192,7 +192,7 @@
             "nzihl:ADM:player:1951388": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Max Vesper",
               "number": "22",
               "photo": "photos/nzihl/pure_nz_admirals/MaxVesper.jpg",
@@ -205,7 +205,7 @@
             "nzihl:ADM:player:1953573": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Justin Daigle",
               "number": "47",
               "photo": "photos/nzihl/pure_nz_admirals/JustinDaigle.jpg",
@@ -218,7 +218,7 @@
             "nzihl:ADM:player:1953774": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Mason Kennedy",
               "number": "8",
               "photo": "photos/nzihl/pure_nz_admirals/MasonKennedy.jpg",
@@ -231,7 +231,7 @@
             "nzihl:ADM:player:1953779": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Flynn Hayward Jones",
               "number": "9",
               "photo": "photos/nzihl/pure_nz_admirals/FlynnHaywardJones.jpg",
@@ -244,7 +244,7 @@
             "nzihl:ADM:player:1954432": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Csaba Kercso-Magos",
               "number": "34",
               "photo": "photos/nzihl/pure_nz_admirals/CsabaKercso-Magos.jpg",
@@ -257,7 +257,7 @@
             "nzihl:ADM:player:1956981": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Lennox King",
               "number": "11",
               "photo": "photos/nzihl/pure_nz_admirals/LennoxKing.jpg",
@@ -270,7 +270,7 @@
             "nzihl:ADM:player:1965431": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Noah Finlay",
               "number": "54",
               "photo": null,
@@ -283,7 +283,7 @@
             "nzihl:ADM:player:2037775": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Cian Murray",
               "number": "20",
               "photo": null,
@@ -296,7 +296,7 @@
             "nzihl:ADM:player:2072273": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Alexander Regan",
               "number": "42",
               "photo": "photos/nzihl/pure_nz_admirals/AlexanderRegan.jpg",
@@ -309,7 +309,7 @@
             "nzihl:ADM:player:2254208": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Zac Vince",
               "number": "4",
               "photo": "photos/nzihl/pure_nz_admirals/ZacVince.jpg",
@@ -322,7 +322,7 @@
             "nzihl:ADM:player:2266108": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Eythan Prendergast",
               "number": "1",
               "photo": "photos/nzihl/pure_nz_admirals/EythanPrendergast.jpg",
@@ -335,7 +335,7 @@
             "nzihl:ADM:player:2298909": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Declan Quinn",
               "number": "41",
               "photo": "photos/nzihl/pure_nz_admirals/DeclanQuinn.jpg",
@@ -348,7 +348,7 @@
             "nzihl:ADM:player:2329564": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Aidan Chaney",
               "number": "18",
               "photo": "photos/nzihl/pure_nz_admirals/AidanChaney.jpg",
@@ -361,7 +361,7 @@
             "nzihl:ADM:player:2383409": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Vadim Sevenier",
               "number": "39",
               "photo": "photos/nzihl/pure_nz_admirals/VadimSevenier.jpg",
@@ -374,7 +374,7 @@
             "nzihl:ADM:player:2476713": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Roscoe Eade",
               "number": "38",
               "photo": null,
@@ -387,7 +387,7 @@
             "nzihl:ADM:player:2479057": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Benjamin De Jonge",
               "number": "26",
               "photo": null,
@@ -400,7 +400,7 @@
             "nzihl:ADM:player:2482073": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Owen Gouin",
               "number": "3",
               "photo": null,
@@ -419,7 +419,7 @@
             "nzihl:BSW:coach:Cameron|Stephen|Assistant Coach": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Cameron Stephen",
               "number": null,
               "photo": null,
@@ -432,7 +432,7 @@
             "nzihl:BSW:coach:Kevin|Simon|Head Coach": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Kevin Simon",
               "number": null,
               "photo": null,
@@ -445,7 +445,7 @@
             "nzihl:BSW:coach:Quintin|Steytler|Assistant Coach": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Quintin Steytler",
               "number": null,
               "photo": null,
@@ -458,7 +458,7 @@
             "nzihl:BSW:player:1416132": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Remy Sandoy",
               "number": "24",
               "photo": "photos/nzihl/botany_swarm/RemySandoy.jpg",
@@ -471,7 +471,7 @@
             "nzihl:BSW:player:1750409": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Sam Webb",
               "number": "33",
               "photo": "photos/nzihl/botany_swarm/SamWebb.jpg",
@@ -484,7 +484,7 @@
             "nzihl:BSW:player:1805738": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Kyle March",
               "number": "5",
               "photo": "photos/nzihl/botany_swarm/KyleMarch.jpg",
@@ -497,7 +497,7 @@
             "nzihl:BSW:player:1936870": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Markus MacDonald",
               "number": "15",
               "photo": "photos/nzihl/botany_swarm/MarkusMacDonald.jpg",
@@ -510,7 +510,7 @@
             "nzihl:BSW:player:1936911": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Ivan Dalmatau",
               "number": "17",
               "photo": "photos/nzihl/botany_swarm/IvanDalmatau.jpg",
@@ -523,7 +523,7 @@
             "nzihl:BSW:player:1936914": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Caleb Price",
               "number": "2",
               "photo": "photos/nzihl/botany_swarm/CalebPrice.jpg",
@@ -536,7 +536,7 @@
             "nzihl:BSW:player:1936917": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Lennart Wimmer",
               "number": "23",
               "photo": "photos/nzihl/botany_swarm/LennartWimmer.jpg",
@@ -549,7 +549,7 @@
             "nzihl:BSW:player:1936964": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Leon Quigley",
               "number": "27",
               "photo": "photos/nzihl/botany_swarm/LeonQuigley.jpg",
@@ -562,7 +562,7 @@
             "nzihl:BSW:player:1937027": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Josh Steen",
               "number": "16",
               "photo": "photos/nzihl/botany_swarm/JoshSteen.jpg",
@@ -575,7 +575,7 @@
             "nzihl:BSW:player:1937500": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Bartek Ewertowski",
               "number": "90",
               "photo": "photos/nzihl/botany_swarm/BartekEwertowski.jpg",
@@ -588,7 +588,7 @@
             "nzihl:BSW:player:1938025": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Luke Simon",
               "number": "4",
               "photo": "photos/nzihl/botany_swarm/LukeSimon.jpg",
@@ -601,7 +601,7 @@
             "nzihl:BSW:player:1938229": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Andrei Serikov",
               "number": "10",
               "photo": "photos/nzihl/botany_swarm/AndreiSerikov.jpg",
@@ -614,7 +614,7 @@
             "nzihl:BSW:player:1938991": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Dima Koptev",
               "number": "21",
               "photo": "photos/nzihl/botany_swarm/DimaKoptev.jpg",
@@ -627,7 +627,7 @@
             "nzihl:BSW:player:1939434": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Ritchie Hopkinson",
               "number": "63",
               "photo": "photos/nzihl/botany_swarm/RitchieHopkinson.jpg",
@@ -640,7 +640,7 @@
             "nzihl:BSW:player:1944385": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Alan Kazhenov",
               "number": "11",
               "photo": "photos/nzihl/botany_swarm/AlanKazhenov.jpg",
@@ -653,7 +653,7 @@
             "nzihl:BSW:player:1945217": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Shakayden Pang",
               "number": "36",
               "photo": "photos/nzihl/botany_swarm/ShakaydenPang.jpg",
@@ -666,7 +666,7 @@
             "nzihl:BSW:player:1953577": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Kyle Jonsson",
               "number": "18",
               "photo": "photos/nzihl/botany_swarm/KyleJonsson.jpg",
@@ -679,7 +679,7 @@
             "nzihl:BSW:player:1953923": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Andrew Hay",
               "number": "13",
               "photo": "photos/nzihl/botany_swarm/AndrewHay.jpg",
@@ -692,7 +692,7 @@
             "nzihl:BSW:player:1954256": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Stefan Thueler",
               "number": "85",
               "photo": "photos/nzihl/botany_swarm/StefanThueler.jpg",
@@ -705,7 +705,7 @@
             "nzihl:BSW:player:1954289": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Ondrej Kozak",
               "number": "28",
               "photo": "photos/nzihl/botany_swarm/OndrejKozak.jpg",
@@ -718,7 +718,7 @@
             "nzihl:BSW:player:1954489": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Oliver Hay",
               "number": "86",
               "photo": "photos/nzihl/botany_swarm/OliverHay.jpg",
@@ -731,7 +731,7 @@
             "nzihl:BSW:player:1954595": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Grace Harrison",
               "number": "29",
               "photo": null,
@@ -744,7 +744,7 @@
             "nzihl:BSW:player:1954616": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Michael Attwell",
               "number": "6",
               "photo": "photos/nzihl/botany_swarm/MichaelAttwell.jpg",
@@ -757,7 +757,7 @@
             "nzihl:BSW:player:2067513": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Connor Parr",
               "number": "1",
               "photo": "photos/nzihl/botany_swarm/ConnorParr.jpg",
@@ -770,7 +770,7 @@
             "nzihl:BSW:player:2107980": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Adam Stitely",
               "number": "82",
               "photo": "photos/nzihl/botany_swarm/AdamStitely.jpg",
@@ -783,7 +783,7 @@
             "nzihl:BSW:player:2198272": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Alexa Gibson",
               "number": "30",
               "photo": "photos/nzihl/botany_swarm/AlexaGibson.jpg",
@@ -796,7 +796,7 @@
             "nzihl:BSW:player:2248994": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Joshua Rawiri",
               "number": "25",
               "photo": "photos/nzihl/botany_swarm/JoshuaRawiri.jpg",
@@ -809,7 +809,7 @@
             "nzihl:BSW:player:2266499": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Kaleb Rock",
               "number": "-",
               "photo": null,
@@ -822,7 +822,7 @@
             "nzihl:BSW:player:2278431": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Wilson Kushniruk",
               "number": "20",
               "photo": "photos/nzihl/botany_swarm/WilsonKushniruk.jpg",
@@ -835,7 +835,7 @@
             "nzihl:BSW:player:2280785": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Jackson Fontaine",
               "number": "9",
               "photo": "photos/nzihl/botany_swarm/JacksonFontaine.jpg",
@@ -848,7 +848,7 @@
             "nzihl:BSW:player:2282184": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Lucas Fontaine",
               "number": "89",
               "photo": "photos/nzihl/botany_swarm/LucasFontaine.jpg",
@@ -861,7 +861,7 @@
             "nzihl:BSW:player:2297016": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Nathan Hufnagel",
               "number": "7",
               "photo": "photos/nzihl/botany_swarm/NathanHufnagel.jpg",
@@ -874,7 +874,7 @@
             "nzihl:BSW:player:2394757": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Nico Hemming",
               "number": "94",
               "photo": "photos/nzihl/botany_swarm/NicoHemming.jpg",
@@ -887,7 +887,7 @@
             "nzihl:BSW:player:2394958": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Nicholas Winchester",
               "number": "26",
               "photo": "photos/nzihl/botany_swarm/NicholasWinchester.jpg",
@@ -900,7 +900,7 @@
             "nzihl:BSW:player:2470134": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Rudolfs Lapsa",
               "number": "62",
               "photo": "photos/nzihl/botany_swarm/RudolfsLapsa.jpg",
@@ -919,7 +919,7 @@
             "nzihl:CRD:coach:Anton|Purver|Head Coach": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Anton Purver",
               "number": null,
               "photo": null,
@@ -932,7 +932,7 @@
             "nzihl:CRD:coach:Ivar|Hoglund|Assistant Coach": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Ivar Hoglund",
               "number": null,
               "photo": null,
@@ -945,7 +945,7 @@
             "nzihl:CRD:coach:Matt|Harrop|Assistant Coach": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Matt Harrop",
               "number": null,
               "photo": null,
@@ -958,7 +958,7 @@
             "nzihl:CRD:player:1936613": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Eli Seo Jun Paek",
               "number": "77",
               "photo": "photos/nzihl/canterbury_red_devils/EliSeoJunPaek.jpg",
@@ -971,7 +971,7 @@
             "nzihl:CRD:player:1936890": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Aaron Byfield",
               "number": "3",
               "photo": null,
@@ -984,7 +984,7 @@
             "nzihl:CRD:player:1937263": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Jacob Wallace",
               "number": "-",
               "photo": null,
@@ -997,7 +997,7 @@
             "nzihl:CRD:player:1937736": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Jack Barton",
               "number": "4",
               "photo": null,
@@ -1010,7 +1010,7 @@
             "nzihl:CRD:player:1939291": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Harry Campbell",
               "number": "10",
               "photo": "photos/nzihl/canterbury_red_devils/HarryCampbell.jpg",
@@ -1023,7 +1023,7 @@
             "nzihl:CRD:player:1940784": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Lucas Duggan",
               "number": "-",
               "photo": "photos/nzihl/canterbury_red_devils/LucasDuggan.jpg",
@@ -1036,7 +1036,7 @@
             "nzihl:CRD:player:1951035": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Timothy Thomas",
               "number": "16",
               "photo": "photos/nzihl/canterbury_red_devils/TimothyThomas.jpg",
@@ -1049,7 +1049,7 @@
             "nzihl:CRD:player:1951224": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Luke Tappin",
               "number": "22",
               "photo": "photos/nzihl/canterbury_red_devils/LukeTappin.jpg",
@@ -1062,7 +1062,7 @@
             "nzihl:CRD:player:1954369": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Haydn Boul",
               "number": "93",
               "photo": "photos/nzihl/canterbury_red_devils/HaydnBoul.jpg",
@@ -1075,7 +1075,7 @@
             "nzihl:CRD:player:1955316": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "George Hopkins",
               "number": "11",
               "photo": "photos/nzihl/canterbury_red_devils/GeorgeHopkins.jpg",
@@ -1088,7 +1088,7 @@
             "nzihl:CRD:player:1955535": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Nicky Dodwell",
               "number": "15",
               "photo": null,
@@ -1101,7 +1101,7 @@
             "nzihl:CRD:player:1955688": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Logan Willis",
               "number": "55",
               "photo": "photos/nzihl/canterbury_red_devils/LoganWillis.jpg",
@@ -1114,7 +1114,7 @@
             "nzihl:CRD:player:1955690": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Niall Fanning",
               "number": "52",
               "photo": "photos/nzihl/canterbury_red_devils/NiallFanning.jpg",
@@ -1127,7 +1127,7 @@
             "nzihl:CRD:player:1959863": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Harry Louw",
               "number": "81",
               "photo": "photos/nzihl/canterbury_red_devils/HarryLouw.jpg",
@@ -1140,7 +1140,7 @@
             "nzihl:CRD:player:1960222": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Joshua Louw",
               "number": "24",
               "photo": "photos/nzihl/canterbury_red_devils/JoshuaLouw.jpg",
@@ -1153,7 +1153,7 @@
             "nzihl:CRD:player:1964432": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Shaun Brown",
               "number": "8",
               "photo": "photos/nzihl/canterbury_red_devils/ShaunBrown.jpg",
@@ -1166,7 +1166,7 @@
             "nzihl:CRD:player:1989517": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Joel Keogh-Cope",
               "number": "28",
               "photo": "photos/nzihl/canterbury_red_devils/JoelKeogh-Cope.jpg",
@@ -1179,7 +1179,7 @@
             "nzihl:CRD:player:1998206": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Daniel Reason",
               "number": "23",
               "photo": "photos/nzihl/canterbury_red_devils/DanielReason.jpg",
@@ -1192,7 +1192,7 @@
             "nzihl:CRD:player:2013730": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Timothy Carey",
               "number": "91",
               "photo": "photos/nzihl/canterbury_red_devils/TimothyCarey.jpg",
@@ -1205,7 +1205,7 @@
             "nzihl:CRD:player:2022553": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Caleb Hance",
               "number": "95",
               "photo": "photos/nzihl/canterbury_red_devils/CalebHance.jpg",
@@ -1218,7 +1218,7 @@
             "nzihl:CRD:player:2029362": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Seamus Gallagher",
               "number": "71",
               "photo": "photos/nzihl/canterbury_red_devils/SeamusGallagher.jpg",
@@ -1231,7 +1231,7 @@
             "nzihl:CRD:player:2029932": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Oliver Carian",
               "number": "96",
               "photo": "photos/nzihl/canterbury_red_devils/OliverCarian.jpg",
@@ -1244,7 +1244,7 @@
             "nzihl:CRD:player:2037535": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Mason Rees",
               "number": "27",
               "photo": "photos/nzihl/canterbury_red_devils/MasonRees.jpg",
@@ -1257,7 +1257,7 @@
             "nzihl:CRD:player:2049908": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Garth Henare",
               "number": "7",
               "photo": "photos/nzihl/canterbury_red_devils/GarthHenare.jpg",
@@ -1270,7 +1270,7 @@
             "nzihl:CRD:player:2132473": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Shamil Daudov",
               "number": "42",
               "photo": "photos/nzihl/canterbury_red_devils/ShamilDaudov.jpg",
@@ -1283,7 +1283,7 @@
             "nzihl:CRD:player:2187935": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Jaan Turia",
               "number": "13",
               "photo": "photos/nzihl/canterbury_red_devils/JaanTuria.jpg",
@@ -1296,7 +1296,7 @@
             "nzihl:CRD:player:2264027": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Mikael Guerin",
               "number": "12",
               "photo": "photos/nzihl/canterbury_red_devils/MikaelGuerin.jpg",
@@ -1309,7 +1309,7 @@
             "nzihl:CRD:player:2282410": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Craig Hayes",
               "number": "-",
               "photo": null,
@@ -1322,7 +1322,7 @@
             "nzihl:CRD:player:2369321": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Peter Zhang",
               "number": "44",
               "photo": null,
@@ -1335,7 +1335,7 @@
             "nzihl:CRD:player:2469948": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Micah Clark",
               "number": "29",
               "photo": "photos/nzihl/canterbury_red_devils/MicahClark.jpg",
@@ -1348,7 +1348,7 @@
             "nzihl:CRD:player:2470046": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Kieran Higgins",
               "number": "75",
               "photo": "photos/nzihl/canterbury_red_devils/KieranHiggins.jpg",
@@ -1361,7 +1361,7 @@
             "nzihl:CRD:player:2470536": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Fabian Hast",
               "number": "48",
               "photo": null,
@@ -1374,7 +1374,7 @@
             "nzihl:CRD:player:2470539": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Alex Gagnon",
               "number": "88",
               "photo": "photos/nzihl/canterbury_red_devils/AlexGagnon.jpg",
@@ -1387,7 +1387,7 @@
             "nzihl:CRD:player:2475233": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Michael Morrissey",
               "number": "21",
               "photo": "photos/nzihl/canterbury_red_devils/MichaelMorrissey.jpg",
@@ -1406,7 +1406,7 @@
             "nzihl:DUN:coach:Guillaume|Leclancher|Head Coach": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Guillaume Leclancher",
               "number": null,
               "photo": null,
@@ -1419,7 +1419,7 @@
             "nzihl:DUN:coach:Jamin|Harrex|Assistant Coach": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Jamin Harrex",
               "number": null,
               "photo": null,
@@ -1432,7 +1432,7 @@
             "nzihl:DUN:player:1939350": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Luc Taillon",
               "number": "37",
               "photo": "photos/nzihl/dunedin_thunder/LucTaillon.jpg",
@@ -1445,7 +1445,7 @@
             "nzihl:DUN:player:2012496": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Ian Audas",
               "number": "27",
               "photo": "photos/nzihl/dunedin_thunder/IanAudas.jpg",
@@ -1458,7 +1458,7 @@
             "nzihl:DUN:player:2012580": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Morgan Blair",
               "number": "91",
               "photo": "photos/nzihl/dunedin_thunder/MorganBlair.jpg",
@@ -1471,7 +1471,7 @@
             "nzihl:DUN:player:2012682": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Jack Lewis",
               "number": "24",
               "photo": "photos/nzihl/dunedin_thunder/JackLewis.jpg",
@@ -1484,7 +1484,7 @@
             "nzihl:DUN:player:2013384": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Max Hurring",
               "number": "22",
               "photo": "photos/nzihl/dunedin_thunder/MaxHurring.jpg",
@@ -1497,7 +1497,7 @@
             "nzihl:DUN:player:2015543": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "James Moore",
               "number": "41",
               "photo": "photos/nzihl/dunedin_thunder/JamesMoore.jpg",
@@ -1510,7 +1510,7 @@
             "nzihl:DUN:player:2016867": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Joe Orr",
               "number": "9",
               "photo": "photos/nzihl/dunedin_thunder/JoeOrr.jpg",
@@ -1523,7 +1523,7 @@
             "nzihl:DUN:player:2024724": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Isaac Koh",
               "number": "30",
               "photo": null,
@@ -1536,7 +1536,7 @@
             "nzihl:DUN:player:2027422": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Cody Byck",
               "number": "45",
               "photo": "photos/nzihl/dunedin_thunder/CodyByck.jpg",
@@ -1549,7 +1549,7 @@
             "nzihl:DUN:player:2027668": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Thomas Clark",
               "number": "11",
               "photo": null,
@@ -1562,7 +1562,7 @@
             "nzihl:DUN:player:2030004": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Shaun Thomson",
               "number": "18",
               "photo": "photos/nzihl/dunedin_thunder/ShaunThomson.jpg",
@@ -1575,7 +1575,7 @@
             "nzihl:DUN:player:2054158": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Sef Johnston",
               "number": "25",
               "photo": "photos/nzihl/dunedin_thunder/SefJohnston.jpg",
@@ -1588,7 +1588,7 @@
             "nzihl:DUN:player:2066397": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "William Bary",
               "number": "7",
               "photo": "photos/nzihl/dunedin_thunder/WilliamBary.jpg",
@@ -1601,7 +1601,7 @@
             "nzihl:DUN:player:2066872": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Jackson Sam",
               "number": "34",
               "photo": null,
@@ -1614,7 +1614,7 @@
             "nzihl:DUN:player:2083568": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Toby Schuck",
               "number": "58",
               "photo": "photos/nzihl/dunedin_thunder/TobySchuck.jpg",
@@ -1627,7 +1627,7 @@
             "nzihl:DUN:player:2147439": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Edward Lawrence",
               "number": "20",
               "photo": "photos/nzihl/dunedin_thunder/EdwardLawrence.jpg",
@@ -1640,7 +1640,7 @@
             "nzihl:DUN:player:2148241": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Pax Kollar",
               "number": "31",
               "photo": null,
@@ -1653,7 +1653,7 @@
             "nzihl:DUN:player:2156251": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Daniel Lee",
               "number": "30",
               "photo": null,
@@ -1666,7 +1666,7 @@
             "nzihl:DUN:player:2160385": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Regan Wilson",
               "number": "19",
               "photo": "photos/nzihl/dunedin_thunder/ReganWilson.jpg",
@@ -1679,7 +1679,7 @@
             "nzihl:DUN:player:2170060": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Katsuto Ikai",
               "number": "17",
               "photo": "photos/nzihl/dunedin_thunder/KatsutoIkai.jpg",
@@ -1692,7 +1692,7 @@
             "nzihl:DUN:player:2183698": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Ollie Rout",
               "number": "3",
               "photo": "photos/nzihl/dunedin_thunder/OllieRout.jpg",
@@ -1705,7 +1705,7 @@
             "nzihl:DUN:player:2271891": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Lachlan Boniface",
               "number": "90",
               "photo": "photos/nzihl/dunedin_thunder/LachlanBoniface.jpg",
@@ -1718,7 +1718,7 @@
             "nzihl:DUN:player:2346738": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Cole Beckstead",
               "number": "88",
               "photo": "photos/nzihl/dunedin_thunder/ColeBeckstead.jpg",
@@ -1731,7 +1731,7 @@
             "nzihl:DUN:player:2351682": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Austin Goh",
               "number": "6",
               "photo": "photos/nzihl/dunedin_thunder/AustinGoh.jpg",
@@ -1744,7 +1744,7 @@
             "nzihl:DUN:player:2358886": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Tristan Darling",
               "number": "26",
               "photo": "photos/nzihl/dunedin_thunder/TristanDarling.jpg",
@@ -1757,7 +1757,7 @@
             "nzihl:DUN:player:2365698": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Luke Stegmann",
               "number": "93",
               "photo": "photos/nzihl/dunedin_thunder/LukeStegmann.jpg",
@@ -1770,7 +1770,7 @@
             "nzihl:DUN:player:2470835": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Samuel Loiselle",
               "number": "72",
               "photo": "photos/nzihl/dunedin_thunder/SamuelLoiselle.jpg",
@@ -1783,7 +1783,7 @@
             "nzihl:DUN:player:2470973": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Chris Eaden",
               "number": "43",
               "photo": "photos/nzihl/dunedin_thunder/ChrisEaden.jpg",
@@ -1796,7 +1796,7 @@
             "nzihl:DUN:player:2482040": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Rayne Walsh",
               "number": "55",
               "photo": null,
@@ -1821,7 +1821,7 @@
             "nzihl:SCS:coach:Cam|Frear|Head Coach": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Cam Frear",
               "number": null,
               "photo": null,
@@ -1834,7 +1834,7 @@
             "nzihl:SCS:coach:Jaden|Skipper|Assistant Coach": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Jaden Skipper",
               "number": null,
               "photo": null,
@@ -1847,7 +1847,7 @@
             "nzihl:SCS:coach:Steve|Reid|Assistant Coach": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Steve Reid",
               "number": null,
               "photo": null,
@@ -1860,7 +1860,7 @@
             "nzihl:SCS:player:1177139": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Maxim Kaluzhny",
               "number": "42",
               "photo": "photos/nzihl/skycity_stampede/MaximKaluzhny.jpg",
@@ -1873,7 +1873,7 @@
             "nzihl:SCS:player:1675843": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Aston Brookes",
               "number": "39",
               "photo": null,
@@ -1886,7 +1886,7 @@
             "nzihl:SCS:player:1954036": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Jordan Challis",
               "number": "22",
               "photo": "photos/nzihl/skycity_stampede/JordanChallis.jpg",
@@ -1899,7 +1899,7 @@
             "nzihl:SCS:player:2011941": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Joel Gerard",
               "number": "35",
               "photo": "photos/nzihl/skycity_stampede/JoelGerard.jpg",
@@ -1912,7 +1912,7 @@
             "nzihl:SCS:player:2012738": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Stefan Amston",
               "number": "3",
               "photo": "photos/nzihl/skycity_stampede/StefanAmston.jpg",
@@ -1925,7 +1925,7 @@
             "nzihl:SCS:player:2012888": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Dylan Devlin",
               "number": "21",
               "photo": "photos/nzihl/skycity_stampede/DylanDevlin.jpg",
@@ -1938,7 +1938,7 @@
             "nzihl:SCS:player:2015045": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Connor Harrison",
               "number": "8",
               "photo": "photos/nzihl/skycity_stampede/ConnorHarrison.jpg",
@@ -1951,7 +1951,7 @@
             "nzihl:SCS:player:2015796": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Jack Robbie",
               "number": "19",
               "photo": "photos/nzihl/skycity_stampede/JackRobbie.jpg",
@@ -1964,7 +1964,7 @@
             "nzihl:SCS:player:2016315": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Jackson Flight",
               "number": "88",
               "photo": "photos/nzihl/skycity_stampede/JacksonFlight.jpg",
@@ -1977,7 +1977,7 @@
             "nzihl:SCS:player:2025961": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Jake Hutchins",
               "number": "28",
               "photo": null,
@@ -1990,7 +1990,7 @@
             "nzihl:SCS:player:2026081": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Jesse Hutchins",
               "number": "15",
               "photo": "photos/nzihl/skycity_stampede/JesseHutchins.jpg",
@@ -2003,7 +2003,7 @@
             "nzihl:SCS:player:2028362": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Tristan Walker",
               "number": "57",
               "photo": null,
@@ -2016,7 +2016,7 @@
             "nzihl:SCS:player:2028900": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Blake Campbell",
               "number": "86",
               "photo": null,
@@ -2029,7 +2029,7 @@
             "nzihl:SCS:player:2042156": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Liam Rasmussen",
               "number": "56",
               "photo": null,
@@ -2042,7 +2042,7 @@
             "nzihl:SCS:player:2046545": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Jake Thompson",
               "number": "31",
               "photo": "photos/nzihl/skycity_stampede/JakeThompson.jpg",
@@ -2055,7 +2055,7 @@
             "nzihl:SCS:player:2047498": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Benjamin Dixon",
               "number": "58",
               "photo": null,
@@ -2068,7 +2068,7 @@
             "nzihl:SCS:player:2047600": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Noah Reid",
               "number": "59",
               "photo": null,
@@ -2081,7 +2081,7 @@
             "nzihl:SCS:player:2050431": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Ollie Ruski-Jones",
               "number": "78",
               "photo": "photos/nzihl/skycity_stampede/OllieRuski-Jones.jpg",
@@ -2094,7 +2094,7 @@
             "nzihl:SCS:player:2050433": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Axel Ruski-Jones",
               "number": "9",
               "photo": null,
@@ -2107,7 +2107,7 @@
             "nzihl:SCS:player:2070139": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Lachlan Frear",
               "number": "24",
               "photo": "photos/nzihl/skycity_stampede/LachlanFrear.jpg",
@@ -2120,7 +2120,7 @@
             "nzihl:SCS:player:2070602": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Matthew Swirtz",
               "number": "1",
               "photo": "photos/nzihl/skycity_stampede/MatthewSwirtz.jpg",
@@ -2133,7 +2133,7 @@
             "nzihl:SCS:player:2070889": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Josh Hurley",
               "number": "97",
               "photo": null,
@@ -2146,7 +2146,7 @@
             "nzihl:SCS:player:2072383": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Maxwell Macharg",
               "number": "25",
               "photo": null,
@@ -2159,7 +2159,7 @@
             "nzihl:SCS:player:2072385": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Harrison Macharg",
               "number": "17",
               "photo": null,
@@ -2172,7 +2172,7 @@
             "nzihl:SCS:player:2072809": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Jaden Skipper",
               "number": "89",
               "photo": null,
@@ -2185,7 +2185,7 @@
             "nzihl:SCS:player:2073065": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Mitchell Frear",
               "number": "16",
               "photo": "photos/nzihl/skycity_stampede/MitchellFrear.jpg",
@@ -2198,7 +2198,7 @@
             "nzihl:SCS:player:2073093": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Cameron Trew",
               "number": "6",
               "photo": "photos/nzihl/skycity_stampede/CameronTrew.jpg",
@@ -2211,7 +2211,7 @@
             "nzihl:SCS:player:2114204": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Tyler Challoner",
               "number": "52",
               "photo": "photos/nzihl/skycity_stampede/TylerChalloner.jpg",
@@ -2224,7 +2224,7 @@
             "nzihl:SCS:player:2118956": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Logan Campbell",
               "number": "36",
               "photo": "photos/nzihl/skycity_stampede/LoganCampbell.jpg",
@@ -2237,7 +2237,7 @@
             "nzihl:SCS:player:2166971": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Conner Jean",
               "number": "11",
               "photo": null,
@@ -2250,7 +2250,7 @@
             "nzihl:SCS:player:2169088": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Max Roth",
               "number": "55",
               "photo": null,
@@ -2274,7 +2274,7 @@
             "nzwihl:AST:coach:Darren|Blong|Head Coach": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Darren Blong",
               "number": null,
               "photo": null,
@@ -2287,7 +2287,7 @@
             "nzwihl:AST:coach:Markku|Multaharju|Assistant Coach": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Markku Multaharju",
               "number": null,
               "photo": null,
@@ -2300,7 +2300,7 @@
             "nzwihl:AST:coach:Rachel|Park|Assistant Coach": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Rachel Park",
               "number": null,
               "photo": null,
@@ -2313,7 +2313,7 @@
             "nzwihl:AST:player:1658947": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Fuchsia Davidson",
               "number": "5",
               "photo": null,
@@ -2326,7 +2326,7 @@
             "nzwihl:AST:player:1936897": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "MeiMei Keith",
               "number": "18",
               "photo": null,
@@ -2339,7 +2339,7 @@
             "nzwihl:AST:player:1936901": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Emma Child",
               "number": "15",
               "photo": null,
@@ -2352,7 +2352,7 @@
             "nzwihl:AST:player:1937062": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Charlotte Butterfield",
               "number": "31",
               "photo": null,
@@ -2365,7 +2365,7 @@
             "nzwihl:AST:player:1937105": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Liliana Reeves",
               "number": "24",
               "photo": null,
@@ -2378,7 +2378,7 @@
             "nzwihl:AST:player:1937144": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Charlotte Pye",
               "number": "13",
               "photo": null,
@@ -2391,7 +2391,7 @@
             "nzwihl:AST:player:1937232": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Lili Hidvegi",
               "number": "3",
               "photo": null,
@@ -2404,7 +2404,7 @@
             "nzwihl:AST:player:1937629": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Emma Thorne",
               "number": "22",
               "photo": null,
@@ -2417,7 +2417,7 @@
             "nzwihl:AST:player:1938173": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Eleanor Cunningham",
               "number": "14",
               "photo": null,
@@ -2430,7 +2430,7 @@
             "nzwihl:AST:player:1938223": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Lochlyn Henry",
               "number": "1",
               "photo": "photos/nzwihl/auckland_steel/LochlynHenry.jpg",
@@ -2443,7 +2443,7 @@
             "nzwihl:AST:player:1938307": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Ashley Richmond",
               "number": "11",
               "photo": null,
@@ -2456,7 +2456,7 @@
             "nzwihl:AST:player:1939339": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Sabina Tunnicliffe",
               "number": "10",
               "photo": null,
@@ -2469,7 +2469,7 @@
             "nzwihl:AST:player:1941431": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Rikki-Lee McLean",
               "number": "17",
               "photo": null,
@@ -2482,7 +2482,7 @@
             "nzwihl:AST:player:1944394": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Jaime Jones",
               "number": "9",
               "photo": null,
@@ -2495,7 +2495,7 @@
             "nzwihl:AST:player:1945218": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Makayla Pang",
               "number": "26",
               "photo": null,
@@ -2508,7 +2508,7 @@
             "nzwihl:AST:player:1952810": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Hannah Shields",
               "number": "19",
               "photo": null,
@@ -2521,7 +2521,7 @@
             "nzwihl:AST:player:1955510": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Mana Keefe",
               "number": "16",
               "photo": null,
@@ -2534,9 +2534,9 @@
             "nzwihl:AST:player:1956628": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "India Easton",
-              "number": "12",
+              "number": "34",
               "photo": null,
               "player_id": 1956628,
               "position": "D",
@@ -2547,7 +2547,7 @@
             "nzwihl:AST:player:1970961": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Helen Murray",
               "number": "6",
               "photo": null,
@@ -2560,7 +2560,7 @@
             "nzwihl:AST:player:1970962": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Jasmine Horner-Pascoe",
               "number": "21",
               "photo": null,
@@ -2573,7 +2573,7 @@
             "nzwihl:AST:player:2088249": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Anjali Mulari",
               "number": "25",
               "photo": null,
@@ -2586,7 +2586,7 @@
             "nzwihl:AST:player:2141575": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Riley Wickes-Smith",
               "number": "30",
               "photo": null,
@@ -2599,7 +2599,7 @@
             "nzwihl:AST:player:2146856": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Brooke Patron",
               "number": "7",
               "photo": null,
@@ -2612,7 +2612,7 @@
             "nzwihl:AST:player:2148807": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Keira Hunter",
               "number": "28",
               "photo": null,
@@ -2625,7 +2625,7 @@
             "nzwihl:AST:player:2198272": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Alexa Gibson",
               "number": "29",
               "photo": "photos/nzwihl/auckland_steel/AlexaGibson.jpg",
@@ -2638,7 +2638,7 @@
             "nzwihl:AST:player:2234098": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Jorja Rosser",
               "number": "2",
               "photo": null,
@@ -2651,7 +2651,7 @@
             "nzwihl:AST:player:2239994": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Katya Blong",
               "number": "4",
               "photo": null,
@@ -2664,7 +2664,7 @@
             "nzwihl:AST:player:2244567": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Ciara Harvey",
               "number": "8",
               "photo": null,
@@ -2677,7 +2677,7 @@
             "nzwihl:AST:player:2266164": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Maddy Sutton",
               "number": "20",
               "photo": null,
@@ -2690,7 +2690,7 @@
             "nzwihl:AST:player:2342352": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Tamryn Meyer",
               "number": "36",
               "photo": null,
@@ -2703,7 +2703,7 @@
             "nzwihl:AST:player:2349195": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Erin Thomas",
               "number": "27",
               "photo": null,
@@ -2716,7 +2716,7 @@
             "nzwihl:AST:player:2446938": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "McKenzie Ang",
               "number": "43",
               "photo": null,
@@ -2729,7 +2729,7 @@
             "nzwihl:AST:player:2462795": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Lauren Askenazy",
               "number": "23",
               "photo": null,
@@ -2742,9 +2742,9 @@
             "nzwihl:AST:player:2471055": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Evelyn Mu",
-              "number": "34",
+              "number": "12",
               "photo": null,
               "player_id": 2471055,
               "position": "-",
@@ -2761,7 +2761,7 @@
             "nzwihl:CIN:coach:Matt|Sandford|Head Coach": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Matt Sandford",
               "number": null,
               "photo": null,
@@ -2774,7 +2774,7 @@
             "nzwihl:CIN:coach:Sam|Johnston|Assistant Coach": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Sam Johnston",
               "number": null,
               "photo": null,
@@ -2787,7 +2787,7 @@
             "nzwihl:CIN:coach:Steph|Koviessen|Assistant Coach": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Steph Koviessen",
               "number": null,
               "photo": null,
@@ -2800,7 +2800,7 @@
             "nzwihl:CIN:player:1937245": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Nerhys Gordon",
               "number": "27",
               "photo": "photos/nzwihl/canterbury_inferno/NerhysGordon.jpg",
@@ -2813,7 +2813,7 @@
             "nzwihl:CIN:player:1937363": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Addison Hodge",
               "number": "86",
               "photo": "photos/nzwihl/canterbury_inferno/AddisonHodge.jpg",
@@ -2826,7 +2826,7 @@
             "nzwihl:CIN:player:1937438": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Xunyin Zhang",
               "number": "97",
               "photo": "photos/nzwihl/canterbury_inferno/XunyinZhang.jpg",
@@ -2839,7 +2839,7 @@
             "nzwihl:CIN:player:1938955": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Sophie Jefferies",
               "number": "14",
               "photo": "photos/nzwihl/canterbury_inferno/SophieJefferies.jpg",
@@ -2852,7 +2852,7 @@
             "nzwihl:CIN:player:1939722": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Kaci Jonker",
               "number": "20",
               "photo": "photos/nzwihl/canterbury_inferno/KaciJonker.jpg",
@@ -2865,10 +2865,10 @@
             "nzwihl:CIN:player:1947931": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
-              "name": "Lucy-Jane(LJ) Hart",
+              "last_verified": "2026-07-23",
+              "name": "Lucy-Jane Hart",
               "number": "94",
-              "photo": "photos/nzwihl/canterbury_inferno/Lucy-Jane(LJ)Hart.jpg",
+              "photo": "photos/nzwihl/canterbury_inferno/Lucy-JaneHart.jpg",
               "player_id": 1947931,
               "position": "F",
               "role": "player",
@@ -2878,7 +2878,7 @@
             "nzwihl:CIN:player:1952802": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Paige Salay",
               "number": "33",
               "photo": "photos/nzwihl/canterbury_inferno/PaigeSalay.jpg",
@@ -2891,7 +2891,7 @@
             "nzwihl:CIN:player:1952852": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Millicent Smith",
               "number": "24",
               "photo": "photos/nzwihl/canterbury_inferno/MillicentSmith.jpg",
@@ -2904,7 +2904,7 @@
             "nzwihl:CIN:player:1953927": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Stephanie Koviessen",
               "number": "4",
               "photo": "photos/nzwihl/canterbury_inferno/StephanieKoviessen.jpg",
@@ -2917,7 +2917,7 @@
             "nzwihl:CIN:player:1953992": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Reagyn Shattock",
               "number": "3",
               "photo": "photos/nzwihl/canterbury_inferno/ReagynShattock.jpg",
@@ -2930,7 +2930,7 @@
             "nzwihl:CIN:player:1954556": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Cameron Tobin",
               "number": "64",
               "photo": "photos/nzwihl/canterbury_inferno/CameronTobin.jpg",
@@ -2943,7 +2943,7 @@
             "nzwihl:CIN:player:1957914": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Bridie Gibbings",
               "number": "44",
               "photo": "photos/nzwihl/canterbury_inferno/BridieGibbings.jpg",
@@ -2956,7 +2956,7 @@
             "nzwihl:CIN:player:1970793": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Sierra Morgulis",
               "number": "1",
               "photo": "photos/nzwihl/canterbury_inferno/SierraMorgulis.jpg",
@@ -2969,7 +2969,7 @@
             "nzwihl:CIN:player:1972699": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Chloe Harrop",
               "number": "22",
               "photo": "photos/nzwihl/canterbury_inferno/ChloeHarrop.jpg",
@@ -2982,10 +2982,10 @@
             "nzwihl:CIN:player:1972940": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
-              "name": "Lucia (Lucy) Eccleton-Allen",
+              "last_verified": "2026-07-23",
+              "name": "Lucia Eccleton-Allen",
               "number": "88",
-              "photo": "photos/nzwihl/canterbury_inferno/Lucia(Lucy)Eccleton-Allen.jpg",
+              "photo": "photos/nzwihl/canterbury_inferno/LuciaEccleton-Allen.jpg",
               "player_id": 1972940,
               "position": "F",
               "role": "player",
@@ -2995,7 +2995,7 @@
             "nzwihl:CIN:player:2028145": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Coco Cruickshank",
               "number": "28",
               "photo": "photos/nzwihl/canterbury_inferno/CocoCruickshank.jpg",
@@ -3008,7 +3008,7 @@
             "nzwihl:CIN:player:2085416": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Tayla Wallace",
               "number": "16",
               "photo": "photos/nzwihl/canterbury_inferno/TaylaWallace.jpg",
@@ -3021,7 +3021,7 @@
             "nzwihl:CIN:player:2092065": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Angela Godfrey",
               "number": "69",
               "photo": "photos/nzwihl/canterbury_inferno/AngelaGodfrey.jpg",
@@ -3034,7 +3034,7 @@
             "nzwihl:CIN:player:2097942": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Abby Barnett",
               "number": "8",
               "photo": "photos/nzwihl/canterbury_inferno/AbbyBarnett.jpg",
@@ -3047,7 +3047,7 @@
             "nzwihl:CIN:player:2101663": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Gabrielle Guerin",
               "number": "10",
               "photo": "photos/nzwihl/canterbury_inferno/GabrielleGuerin.jpg",
@@ -3060,9 +3060,9 @@
             "nzwihl:CIN:player:2141575": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Riley Wickes-Smith",
-              "number": "-",
+              "number": "25",
               "photo": null,
               "player_id": 2141575,
               "position": "G",
@@ -3073,7 +3073,7 @@
             "nzwihl:CIN:player:2148127": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Tessa Langman",
               "number": "32",
               "photo": "photos/nzwihl/canterbury_inferno/TessaLangman.jpg",
@@ -3086,7 +3086,7 @@
             "nzwihl:CIN:player:2156625": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Rosemary Lee",
               "number": "34",
               "photo": null,
@@ -3099,7 +3099,7 @@
             "nzwihl:CIN:player:2203867": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Steph Patchett",
               "number": "21",
               "photo": "photos/nzwihl/canterbury_inferno/StephPatchett.jpg",
@@ -3112,7 +3112,7 @@
             "nzwihl:CIN:player:2209869": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Annah Matthews",
               "number": "42",
               "photo": "photos/nzwihl/canterbury_inferno/AnnahMatthews.jpg",
@@ -3125,7 +3125,7 @@
             "nzwihl:CIN:player:2245894": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Anabelle Guerin",
               "number": "11",
               "photo": "photos/nzwihl/canterbury_inferno/AnabelleGuerin.jpg",
@@ -3138,7 +3138,7 @@
             "nzwihl:CIN:player:2411681": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Jessie Strain",
               "number": "19",
               "photo": "photos/nzwihl/canterbury_inferno/JessieStrain.jpg",
@@ -3151,7 +3151,7 @@
             "nzwihl:CIN:player:2454583": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Lucy Boniface",
               "number": "7",
               "photo": null,
@@ -3170,7 +3170,7 @@
             "nzwihl:DTW:coach:Carole|Kalnins|Assistant Coach": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Carole Kalnins",
               "number": null,
               "photo": null,
@@ -3183,7 +3183,7 @@
             "nzwihl:DTW:coach:Mike|Sam|Head Coach": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Mike Sam",
               "number": null,
               "photo": null,
@@ -3196,7 +3196,7 @@
             "nzwihl:DTW:player:1945492": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Jacinta Hoglund",
               "number": "16",
               "photo": null,
@@ -3209,7 +3209,7 @@
             "nzwihl:DTW:player:1949577": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Samantha Winder",
               "number": "20",
               "photo": null,
@@ -3222,7 +3222,7 @@
             "nzwihl:DTW:player:2012136": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Camryn Linton",
               "number": "26",
               "photo": null,
@@ -3235,7 +3235,7 @@
             "nzwihl:DTW:player:2012965": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Rosie Harris",
               "number": "13",
               "photo": null,
@@ -3248,7 +3248,7 @@
             "nzwihl:DTW:player:2029765": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Felicia Goile",
               "number": "24",
               "photo": null,
@@ -3261,7 +3261,7 @@
             "nzwihl:DTW:player:2037375": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Nini Walton",
               "number": "18",
               "photo": null,
@@ -3274,7 +3274,7 @@
             "nzwihl:DTW:player:2039923": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Lydia Hortop-Blair",
               "number": "27",
               "photo": null,
@@ -3287,7 +3287,7 @@
             "nzwihl:DTW:player:2041698": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Izzy Power",
               "number": "7",
               "photo": null,
@@ -3300,7 +3300,7 @@
             "nzwihl:DTW:player:2041740": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Abbey Heale",
               "number": "9",
               "photo": null,
@@ -3313,7 +3313,7 @@
             "nzwihl:DTW:player:2045126": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Kate Vernal",
               "number": "5",
               "photo": null,
@@ -3326,7 +3326,7 @@
             "nzwihl:DTW:player:2066403": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Jessica Ryall",
               "number": "25",
               "photo": null,
@@ -3339,7 +3339,7 @@
             "nzwihl:DTW:player:2069437": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Rebecca Lilly",
               "number": "17",
               "photo": null,
@@ -3352,7 +3352,7 @@
             "nzwihl:DTW:player:2074860": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Laney Keenan",
               "number": "22",
               "photo": null,
@@ -3365,7 +3365,7 @@
             "nzwihl:DTW:player:2077023": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Hannah Cross",
               "number": "12",
               "photo": null,
@@ -3378,7 +3378,7 @@
             "nzwihl:DTW:player:2115289": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Manuella Sanches Pedrosa",
               "number": "14",
               "photo": null,
@@ -3391,7 +3391,7 @@
             "nzwihl:DTW:player:2155530": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Lucy Thomas",
               "number": "1",
               "photo": null,
@@ -3404,7 +3404,7 @@
             "nzwihl:DTW:player:2170568": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Lyani Goodman",
               "number": "6",
               "photo": null,
@@ -3417,7 +3417,7 @@
             "nzwihl:DTW:player:2214486": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Caitlin Hollyer",
               "number": "23",
               "photo": null,
@@ -3430,7 +3430,7 @@
             "nzwihl:DTW:player:2349936": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Indie Lewis",
               "number": "11",
               "photo": null,
@@ -3443,7 +3443,7 @@
             "nzwihl:DTW:player:2456538": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Sabine Vockins",
               "number": "19",
               "photo": null,
@@ -3462,7 +3462,7 @@
             "nzwihl:WLD:coach:Jc|Lavoie|Assistant Coach": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Jc Lavoie",
               "number": null,
               "photo": null,
@@ -3475,7 +3475,7 @@
             "nzwihl:WLD:coach:Trevor|Lawrence|Head Coach": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Trevor Lawrence",
               "number": null,
               "photo": null,
@@ -3488,7 +3488,7 @@
             "nzwihl:WLD:player:1921930": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Jamie Harris",
               "number": "8",
               "photo": null,
@@ -3501,7 +3501,7 @@
             "nzwihl:WLD:player:1936932": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Zadia Paulse",
               "number": "30",
               "photo": null,
@@ -3514,7 +3514,7 @@
             "nzwihl:WLD:player:2026235": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Gina Di Rienzo",
               "number": "9",
               "photo": null,
@@ -3527,7 +3527,7 @@
             "nzwihl:WLD:player:2026308": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Reiley Andrews",
               "number": "42",
               "photo": null,
@@ -3540,7 +3540,7 @@
             "nzwihl:WLD:player:2028096": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Polly Bennetts",
               "number": "36",
               "photo": null,
@@ -3553,7 +3553,7 @@
             "nzwihl:WLD:player:2037279": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Zoe Thurston",
               "number": "88",
               "photo": null,
@@ -3566,7 +3566,7 @@
             "nzwihl:WLD:player:2037466": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Jordan Wichman",
               "number": "25",
               "photo": null,
@@ -3579,7 +3579,7 @@
             "nzwihl:WLD:player:2050664": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Bobbie Weeks",
               "number": "6",
               "photo": null,
@@ -3592,7 +3592,7 @@
             "nzwihl:WLD:player:2050711": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Lydia Clarke",
               "number": "16",
               "photo": null,
@@ -3605,7 +3605,7 @@
             "nzwihl:WLD:player:2055745": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Kristyn Ouimet",
               "number": "5",
               "photo": null,
@@ -3618,7 +3618,7 @@
             "nzwihl:WLD:player:2079820": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Joanna Styles",
               "number": "15",
               "photo": null,
@@ -3631,7 +3631,7 @@
             "nzwihl:WLD:player:2082509": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Gabby Mills",
               "number": "2",
               "photo": null,
@@ -3644,7 +3644,7 @@
             "nzwihl:WLD:player:2101606": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Gracie Hellmrich",
               "number": "92",
               "photo": null,
@@ -3657,7 +3657,7 @@
             "nzwihl:WLD:player:2247142": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Tuhi-Mareikura Hopa-Thomson",
               "number": "35",
               "photo": null,
@@ -3670,7 +3670,7 @@
             "nzwihl:WLD:player:2279541": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Madeline Dixon",
               "number": "23",
               "photo": null,
@@ -3683,7 +3683,7 @@
             "nzwihl:WLD:player:2364632": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Bella Pownall",
               "number": "26",
               "photo": null,
@@ -3696,7 +3696,7 @@
             "nzwihl:WLD:player:2376316": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Kelli Burstein",
               "number": "28",
               "photo": null,
@@ -3709,7 +3709,7 @@
             "nzwihl:WLD:player:2410374": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Tayla Potter",
               "number": "20",
               "photo": null,
@@ -3722,7 +3722,7 @@
             "nzwihl:WLD:player:2436814": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Bridey Sangster",
               "number": "10",
               "photo": null,
@@ -3735,7 +3735,7 @@
             "nzwihl:WLD:player:2437033": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Aoife Orr",
               "number": "79",
               "photo": null,
@@ -3748,7 +3748,7 @@
             "nzwihl:WLD:player:2465580": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Isla Lawrence",
               "number": "17",
               "photo": null,
@@ -3761,7 +3761,7 @@
             "nzwihl:WLD:player:2471355": {
               "active": true,
               "first_seen": "2026-07-11",
-              "last_verified": "2026-07-16",
+              "last_verified": "2026-07-23",
               "name": "Joana Letourneau",
               "number": "27",
               "photo": null,
