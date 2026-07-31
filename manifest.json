@@ -2755,10 +2755,10 @@
           },
           "slug": "auckland_steel"
         },
-        "CIN": {
+        "INF": {
           "display_name": "Canterbury Inferno",
           "people": {
-            "nzwihl:CIN:coach:Matt|Sandford|Head Coach": {
+            "nzwihl:INF:coach:Matt|Sandford|Head Coach": {
               "active": true,
               "first_seen": "2026-07-11",
               "last_verified": "2026-07-30",
@@ -2771,7 +2771,7 @@
               "sha256": null,
               "source_url": null
             },
-            "nzwihl:CIN:coach:Sam|Johnston|Assistant Coach": {
+            "nzwihl:INF:coach:Sam|Johnston|Assistant Coach": {
               "active": true,
               "first_seen": "2026-07-11",
               "last_verified": "2026-07-30",
@@ -2784,7 +2784,7 @@
               "sha256": null,
               "source_url": null
             },
-            "nzwihl:CIN:coach:Steph|Koviessen|Assistant Coach": {
+            "nzwihl:INF:coach:Steph|Koviessen|Assistant Coach": {
               "active": true,
               "first_seen": "2026-07-11",
               "last_verified": "2026-07-30",
@@ -2797,7 +2797,7 @@
               "sha256": null,
               "source_url": null
             },
-            "nzwihl:CIN:player:1937245": {
+            "nzwihl:INF:player:1937245": {
               "active": true,
               "first_seen": "2026-07-11",
               "last_verified": "2026-07-30",
@@ -2810,7 +2810,7 @@
               "sha256": "84d84be2137b28d56716bb090026a9641eb7845b9557484a85e29d96a312851f",
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/2026InfernoNehrysGORDON%2Ejpg"
             },
-            "nzwihl:CIN:player:1937363": {
+            "nzwihl:INF:player:1937363": {
               "active": true,
               "first_seen": "2026-07-11",
               "last_verified": "2026-07-30",
@@ -2823,7 +2823,7 @@
               "sha256": "03f97af1be472fa30882301f09c49fc73c9065ab953ac2dc8e5c072a295d0aa6",
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/2026InfernoAddieHODGE%2Ejpg"
             },
-            "nzwihl:CIN:player:1937438": {
+            "nzwihl:INF:player:1937438": {
               "active": true,
               "first_seen": "2026-07-11",
               "last_verified": "2026-07-30",
@@ -2836,7 +2836,7 @@
               "sha256": "7c9a5649ae0c6380c33fe40b2a54a49255b261c59bebcbc459321ec6bae95d33",
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/2026InfernoEllaZHANG%2Ejpg"
             },
-            "nzwihl:CIN:player:1938955": {
+            "nzwihl:INF:player:1938955": {
               "active": true,
               "first_seen": "2026-07-11",
               "last_verified": "2026-07-30",
@@ -2849,7 +2849,7 @@
               "sha256": "c60ca0e5a9959afb3fac2224e322e872e5f08225e7d0fbbae9544c45aec4a9b1",
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/2026InfernoSophieJEFFERIESSMALLfilesize%2Ejpg"
             },
-            "nzwihl:CIN:player:1939722": {
+            "nzwihl:INF:player:1939722": {
               "active": true,
               "first_seen": "2026-07-11",
               "last_verified": "2026-07-30",
@@ -2862,7 +2862,7 @@
               "sha256": "f32b2ea7bd581cd16af34c8b76b0b033dce89278662f8cb094c596111e779e24",
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/2026InfernoKaciJONKER%2Ejpg"
             },
-            "nzwihl:CIN:player:1947931": {
+            "nzwihl:INF:player:1947931": {
               "active": true,
               "first_seen": "2026-07-11",
               "last_verified": "2026-07-30",
@@ -2875,7 +2875,7 @@
               "sha256": "d6e3c298c3a01f6d648ecbdaac2a7430f9a3c5c1718a150b91651d725cdd26d7",
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/2026InfernoLJHART%2Ejpg"
             },
-            "nzwihl:CIN:player:1952802": {
+            "nzwihl:INF:player:1952802": {
               "active": true,
               "first_seen": "2026-07-11",
               "last_verified": "2026-07-30",
@@ -2888,7 +2888,7 @@
               "sha256": "0016225c766c44027dcd5d578a21c1ab78ab7d7ed7f25a93dee1f59ee65bc8fa",
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/2026InfernoPaigeSALAY%2Ejpg"
             },
-            "nzwihl:CIN:player:1952852": {
+            "nzwihl:INF:player:1952852": {
               "active": true,
               "first_seen": "2026-07-11",
               "last_verified": "2026-07-30",
@@ -2901,7 +2901,7 @@
               "sha256": "c04f3a617af49ae077d327d552cf2611221b7ccca2d975858b94e0d25418da1c",
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/2026InfernoMillieSMITH%2Ejpg"
             },
-            "nzwihl:CIN:player:1953927": {
+            "nzwihl:INF:player:1953927": {
               "active": true,
               "first_seen": "2026-07-11",
               "last_verified": "2026-07-30",
@@ -2914,7 +2914,7 @@
               "sha256": "c7835202b20e0ca4324e3e8f294833e403e4342282fbef43a1d75c96dfa1d0a0",
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/stephBridie1%2EJPG"
             },
-            "nzwihl:CIN:player:1953992": {
+            "nzwihl:INF:player:1953992": {
               "active": true,
               "first_seen": "2026-07-11",
               "last_verified": "2026-07-30",
@@ -2927,7 +2927,7 @@
               "sha256": "41a8c0fe450325cce2739f841e7ed484b7495113dbf552eb902d01a6701795be",
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/2026InfernoReagynSHATTOCK%2Ejpg"
             },
-            "nzwihl:CIN:player:1954556": {
+            "nzwihl:INF:player:1954556": {
               "active": true,
               "first_seen": "2026-07-11",
               "last_verified": "2026-07-30",
@@ -2940,7 +2940,7 @@
               "sha256": "ccf18293c86bd61dc2b0d62d28da7d5c7aa18342991f6ae5655a87f1d0248a26",
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/2026InfernoCameronTOBIN%2Ejpg"
             },
-            "nzwihl:CIN:player:1957914": {
+            "nzwihl:INF:player:1957914": {
               "active": true,
               "first_seen": "2026-07-11",
               "last_verified": "2026-07-30",
@@ -2953,7 +2953,7 @@
               "sha256": "54447d13c28f7c0be081504971a8d77bc642d7119775af8d09fafe4bcb3886aa",
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/stephBridie%2EJPG"
             },
-            "nzwihl:CIN:player:1970793": {
+            "nzwihl:INF:player:1970793": {
               "active": true,
               "first_seen": "2026-07-11",
               "last_verified": "2026-07-30",
@@ -2966,7 +2966,7 @@
               "sha256": "34add54611d2bfd32e553eec5d709f41b6848ce88545a6f0c1ec42b10121b6cc",
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/2026InfernoSierraMORGULIS%2Ejpg"
             },
-            "nzwihl:CIN:player:1972699": {
+            "nzwihl:INF:player:1972699": {
               "active": true,
               "first_seen": "2026-07-11",
               "last_verified": "2026-07-30",
@@ -2979,7 +2979,7 @@
               "sha256": "05006330b8438738db897e16fd2754770125bef51886e5305601b90aab6a08d0",
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/2026InfernoChloeHARROP%2Ejpg"
             },
-            "nzwihl:CIN:player:1972940": {
+            "nzwihl:INF:player:1972940": {
               "active": true,
               "first_seen": "2026-07-11",
               "last_verified": "2026-07-30",
@@ -2992,7 +2992,7 @@
               "sha256": "e50a839ea67331c63e08af4a036b9c6d1e20d8bf86b4060be8cc6c95ab90d6d8",
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/2026InfernoLucyECCLETON%2Ejpg"
             },
-            "nzwihl:CIN:player:2028145": {
+            "nzwihl:INF:player:2028145": {
               "active": true,
               "first_seen": "2026-07-11",
               "last_verified": "2026-07-30",
@@ -3005,7 +3005,7 @@
               "sha256": "a7616a745193ab8a40a7d67c5ed122be5d6147fe0d784fccfebc3d1aaeab3895",
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/2026InfernoCocoCRUICKSHANK%2Ejpg"
             },
-            "nzwihl:CIN:player:2085416": {
+            "nzwihl:INF:player:2085416": {
               "active": true,
               "first_seen": "2026-07-11",
               "last_verified": "2026-07-30",
@@ -3018,7 +3018,7 @@
               "sha256": "d8558507ab7e4bab4929edb67470e1344cfaa35cab303fdca02b9f1b555acc77",
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/2026InfernoTaylaWALLACE%2Ejpg"
             },
-            "nzwihl:CIN:player:2092065": {
+            "nzwihl:INF:player:2092065": {
               "active": true,
               "first_seen": "2026-07-11",
               "last_verified": "2026-07-30",
@@ -3031,7 +3031,7 @@
               "sha256": "d8281bb81573d6b6283dc5f9fbd6a1278df21c586ca14fc817e96f208535b484",
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/2026InfernoAngeGODFREY%2Ejpg"
             },
-            "nzwihl:CIN:player:2097942": {
+            "nzwihl:INF:player:2097942": {
               "active": true,
               "first_seen": "2026-07-11",
               "last_verified": "2026-07-30",
@@ -3044,7 +3044,7 @@
               "sha256": "eb384b3ab9480197c1de216477de90655673441dd958fff01d069d4f6449cff2",
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/2026InfernoAbbyBARNETT%2Ejpg"
             },
-            "nzwihl:CIN:player:2101663": {
+            "nzwihl:INF:player:2101663": {
               "active": true,
               "first_seen": "2026-07-11",
               "last_verified": "2026-07-30",
@@ -3057,7 +3057,7 @@
               "sha256": "8ea6823c8f543934387e62000b7cac5b411eb0697c2b3f1dbeda3a3009afe46f",
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/2026InfernoGabbyGUERIN%2Ejpg"
             },
-            "nzwihl:CIN:player:2141575": {
+            "nzwihl:INF:player:2141575": {
               "active": true,
               "first_seen": "2026-07-11",
               "last_verified": "2026-07-30",
@@ -3070,7 +3070,7 @@
               "sha256": null,
               "source_url": null
             },
-            "nzwihl:CIN:player:2148127": {
+            "nzwihl:INF:player:2148127": {
               "active": true,
               "first_seen": "2026-07-11",
               "last_verified": "2026-07-30",
@@ -3083,7 +3083,7 @@
               "sha256": "5e3f1359bb2d175c3bbe3fd3e28157800e7311e3213ccd4cbb6d15c89130d17e",
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/2026InfernoTessaLANGMAN%2Ejpg"
             },
-            "nzwihl:CIN:player:2156625": {
+            "nzwihl:INF:player:2156625": {
               "active": true,
               "first_seen": "2026-07-11",
               "last_verified": "2026-07-30",
@@ -3096,7 +3096,7 @@
               "sha256": null,
               "source_url": null
             },
-            "nzwihl:CIN:player:2203867": {
+            "nzwihl:INF:player:2203867": {
               "active": true,
               "first_seen": "2026-07-11",
               "last_verified": "2026-07-30",
@@ -3109,7 +3109,7 @@
               "sha256": "f56442ded1490c69465206d454a2a2f4fd3fd1ce937ebd02488cdf8006561d20",
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/2026InfernoStephPATCHETT%2Ejpg"
             },
-            "nzwihl:CIN:player:2209869": {
+            "nzwihl:INF:player:2209869": {
               "active": true,
               "first_seen": "2026-07-11",
               "last_verified": "2026-07-30",
@@ -3122,7 +3122,7 @@
               "sha256": "ba49fd557255e0878b1f0d6d5393fae25d72723edc6e74d80104fd757c164b7c",
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/2026InfernoAnnahMATTHEWS%2Ejpg"
             },
-            "nzwihl:CIN:player:2245894": {
+            "nzwihl:INF:player:2245894": {
               "active": true,
               "first_seen": "2026-07-11",
               "last_verified": "2026-07-30",
@@ -3135,7 +3135,7 @@
               "sha256": "51c591a44ad7153a350940ed18794a699997dab9476957c72bf8e109c4758407",
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/2026InfernoAnabelleGUERIN%2Ejpg"
             },
-            "nzwihl:CIN:player:2411681": {
+            "nzwihl:INF:player:2411681": {
               "active": true,
               "first_seen": "2026-07-11",
               "last_verified": "2026-07-30",
@@ -3148,7 +3148,7 @@
               "sha256": "e627c7cc2e5168339d81399f1a74ada49636bf5daa56ab3264ebbbaf836f0096",
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/2026InfernoJesseSTRAIN%2Ejpg"
             },
-            "nzwihl:CIN:player:2454583": {
+            "nzwihl:INF:player:2454583": {
               "active": true,
               "first_seen": "2026-07-11",
               "last_verified": "2026-07-30",

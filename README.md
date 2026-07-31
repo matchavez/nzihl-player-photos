@@ -167,7 +167,7 @@ pip install -e .
 python -m player_photos --output-dir .
 
 # One team only, useful for testing a single override/photo:
-python -m player_photos --output-dir . --teams-only ADM,CIN
+python -m player_photos --output-dir . --teams-only ADM,INF
 ```
 
 ## Testing

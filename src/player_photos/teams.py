@@ -51,7 +51,7 @@ NZIHL_TEAMS: list[Team] = [
 # ---- NZWIHL (women's), 2026 ---------------------------------------------
 NZWIHL_TEAMS: list[Team] = [
     Team("nzwihl", 675636, "Auckland Steel", "AST", NZWIHL_CID, NZWIHL_LID),
-    Team("nzwihl", 675637, "Canterbury Inferno", "CIN", NZWIHL_CID, NZWIHL_LID),
+    Team("nzwihl", 675637, "Canterbury Inferno", "INF", NZWIHL_CID, NZWIHL_LID),
     Team("nzwihl", 675638, "Dunedin Thunder Women", "DTW", NZWIHL_CID, NZWIHL_LID),
     Team("nzwihl", 675639, "Wakatipu Wild", "WLD", NZWIHL_CID, NZWIHL_LID),
 ]
