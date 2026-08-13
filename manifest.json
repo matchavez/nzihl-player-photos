@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07",
+  "generated_at": "2026-08-13",
   "leagues": {
     "nzihl": {
       "display_name": "NZIHL",
@@ -8,7 +8,7 @@
           "display_name": "Pure NZ Admirals",
           "people": {
             "nzihl:ADM:coach:Blake|Jackson|Head Coach": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Blake Jackson",
@@ -21,7 +21,7 @@
               "source_url": null
             },
             "nzihl:ADM:coach:Rodney|McMillin|Assistant Coach": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Rodney McMillin",
@@ -34,7 +34,7 @@
               "source_url": null
             },
             "nzihl:ADM:player:1937016": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Rico Clamor",
@@ -47,7 +47,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/RicoClamor.jpg"
             },
             "nzihl:ADM:player:1937087": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Owen Brown",
@@ -60,7 +60,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/OwenBrown.jpg"
             },
             "nzihl:ADM:player:1937088": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Jack Brown",
@@ -73,7 +73,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/JackBrown.jpg"
             },
             "nzihl:ADM:player:1937745": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Sebastian Chamberlin",
@@ -86,7 +86,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/SebChamberlin%2Ejpg"
             },
             "nzihl:ADM:player:1937920": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Nash Hayward Jones",
@@ -99,7 +99,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/NashHaywardJones.jpg"
             },
             "nzihl:ADM:player:1938187": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Zachery Stephen",
@@ -112,7 +112,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/ZachStephen%2Ejpg"
             },
             "nzihl:ADM:player:1938188": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Benjamin Stephen",
@@ -125,7 +125,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/BenStephen%2Ejpg"
             },
             "nzihl:ADM:player:1938189": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Sebastian Stephen",
@@ -138,7 +138,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/SebStephen%2Ejpg"
             },
             "nzihl:ADM:player:1938223": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Lochlyn Henry",
@@ -151,7 +151,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/LochlynHenry.jpg"
             },
             "nzihl:ADM:player:1938224": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Scott Henry",
@@ -164,7 +164,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/ScottHenry.jpg"
             },
             "nzihl:ADM:player:1939375": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Stephen Mawson",
@@ -177,7 +177,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/StephenMawson.jpg"
             },
             "nzihl:ADM:player:1949571": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Vinny Cistrone",
@@ -190,7 +190,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/VinnyCistrone.jpg"
             },
             "nzihl:ADM:player:1951388": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Max Vesper",
@@ -203,7 +203,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/MaxVesper.jpg"
             },
             "nzihl:ADM:player:1953573": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Justin Daigle",
@@ -216,7 +216,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/JustinDaigle.jpg"
             },
             "nzihl:ADM:player:1953774": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Mason Kennedy",
@@ -229,7 +229,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/MasonKennedy.jpg"
             },
             "nzihl:ADM:player:1953779": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Flynn Hayward Jones",
@@ -242,7 +242,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/FlynnHaywardJones.jpg"
             },
             "nzihl:ADM:player:1954432": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Csaba Kercso-Magos",
@@ -255,7 +255,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/CsabaKercsoMagos%2Ejpg"
             },
             "nzihl:ADM:player:1956981": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Lennox King",
@@ -268,7 +268,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/LennoxKing.jpg"
             },
             "nzihl:ADM:player:1965431": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Noah Finlay",
@@ -281,7 +281,7 @@
               "source_url": null
             },
             "nzihl:ADM:player:2037775": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Cian Murray",
@@ -294,7 +294,7 @@
               "source_url": null
             },
             "nzihl:ADM:player:2072273": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Alexander Regan",
@@ -307,7 +307,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/AlexRegan%2Ejpg"
             },
             "nzihl:ADM:player:2254208": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Zac Vince",
@@ -320,7 +320,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/ZacVince.jpg"
             },
             "nzihl:ADM:player:2266108": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Eythan Prendergast",
@@ -333,7 +333,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/EythanPrendergast.jpg"
             },
             "nzihl:ADM:player:2298909": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Declan Quinn",
@@ -346,7 +346,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/DeclanQuinn.jpg"
             },
             "nzihl:ADM:player:2329564": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Aidan Chaney",
@@ -359,7 +359,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/AidanChaney.jpg"
             },
             "nzihl:ADM:player:2383409": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Vadim Sevenier",
@@ -372,7 +372,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/VadimSevenier.jpg"
             },
             "nzihl:ADM:player:2476713": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Roscoe Eade",
@@ -385,7 +385,7 @@
               "source_url": null
             },
             "nzihl:ADM:player:2479057": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Benjamin De Jonge",
@@ -398,7 +398,7 @@
               "source_url": null
             },
             "nzihl:ADM:player:2482073": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Owen Gouin",
@@ -417,7 +417,7 @@
           "display_name": "Botany Swarm",
           "people": {
             "nzihl:BSW:coach:Cameron|Stephen|Assistant Coach": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Cameron Stephen",
@@ -430,7 +430,7 @@
               "source_url": null
             },
             "nzihl:BSW:coach:Kevin|Simon|Head Coach": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Kevin Simon",
@@ -443,7 +443,7 @@
               "source_url": null
             },
             "nzihl:BSW:coach:Quintin|Steytler|Assistant Coach": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Quintin Steytler",
@@ -456,7 +456,7 @@
               "source_url": null
             },
             "nzihl:BSW:player:1416132": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Remy Sandoy",
@@ -469,7 +469,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/Sandoy%2Ejpg"
             },
             "nzihl:BSW:player:1750409": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Sam Webb",
@@ -482,7 +482,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/SamWebb.jpg"
             },
             "nzihl:BSW:player:1805738": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Kyle March",
@@ -495,7 +495,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/KyleMarch.jpg"
             },
             "nzihl:BSW:player:1936870": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Markus MacDonald",
@@ -508,7 +508,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/MarkusMacDonald.jpg"
             },
             "nzihl:BSW:player:1936911": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Ivan Dalmatau",
@@ -521,7 +521,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/IvanDalmatau1%2Ejpg"
             },
             "nzihl:BSW:player:1936914": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Caleb Price",
@@ -534,7 +534,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/CalebPrice.jpg"
             },
             "nzihl:BSW:player:1936917": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Lennart Wimmer",
@@ -547,7 +547,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/LennartWimmer.jpg"
             },
             "nzihl:BSW:player:1936964": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Leon Quigley",
@@ -560,7 +560,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/LeonQuigley.jpg"
             },
             "nzihl:BSW:player:1937027": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Josh Steen",
@@ -573,7 +573,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/JoshSteen.jpg"
             },
             "nzihl:BSW:player:1937500": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Bartek Ewertowski",
@@ -586,7 +586,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/BartekEwertowski.jpg"
             },
             "nzihl:BSW:player:1938025": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Luke Simon",
@@ -599,7 +599,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/LukeSimon.jpg"
             },
             "nzihl:BSW:player:1938229": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Andrei Serikov",
@@ -612,7 +612,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/AndreSerikov1of1%2Ejpg"
             },
             "nzihl:BSW:player:1938991": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Dima Koptev",
@@ -625,7 +625,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/DimaKoptev.jpg"
             },
             "nzihl:BSW:player:1939434": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Ritchie Hopkinson",
@@ -638,7 +638,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/Hopkinson%2Ejpg"
             },
             "nzihl:BSW:player:1944385": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Alan Kazhenov",
@@ -651,7 +651,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/AlanKaz1%2Ejpg"
             },
             "nzihl:BSW:player:1945217": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Shakayden Pang",
@@ -664,7 +664,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/ShakaydenPang.jpg"
             },
             "nzihl:BSW:player:1953577": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Kyle Jonsson",
@@ -677,7 +677,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/KyleJonsson.jpg"
             },
             "nzihl:BSW:player:1953923": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Andrew Hay",
@@ -690,7 +690,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/andyhay%2Ejpg"
             },
             "nzihl:BSW:player:1954256": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Stefan Thueler",
@@ -703,7 +703,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/StefanThuler%2Ejpg"
             },
             "nzihl:BSW:player:1954289": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Ondrej Kozak",
@@ -716,7 +716,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/Kozak%2Ejpg"
             },
             "nzihl:BSW:player:1954489": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Oliver Hay",
@@ -729,7 +729,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/OliverHay.jpg"
             },
             "nzihl:BSW:player:1954595": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Grace Harrison",
@@ -742,7 +742,7 @@
               "source_url": null
             },
             "nzihl:BSW:player:1954616": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Michael Attwell",
@@ -755,7 +755,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/MichaelAttwell1%2Ejpg"
             },
             "nzihl:BSW:player:2067513": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Connor Parr",
@@ -768,7 +768,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/ConnorParr1%2Ejpg"
             },
             "nzihl:BSW:player:2107980": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Adam Stitely",
@@ -781,7 +781,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/AdamStitely.jpg"
             },
             "nzihl:BSW:player:2198272": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Alexa Gibson",
@@ -794,7 +794,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/AlexaGibson.jpg"
             },
             "nzihl:BSW:player:2248994": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Joshua Rawiri",
@@ -807,7 +807,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/JoshRawiri1%2Ejpg"
             },
             "nzihl:BSW:player:2266499": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Kaleb Rock",
@@ -820,7 +820,7 @@
               "source_url": null
             },
             "nzihl:BSW:player:2278431": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Wilson Kushniruk",
@@ -833,7 +833,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/WilsonKushniruk1%2Ejpg"
             },
             "nzihl:BSW:player:2280785": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Jackson Fontaine",
@@ -846,7 +846,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/JacksonFontaine.jpg"
             },
             "nzihl:BSW:player:2282184": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Lucas Fontaine",
@@ -859,7 +859,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/LucasFontaine.jpg"
             },
             "nzihl:BSW:player:2297016": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Nathan Hufnagel",
@@ -872,7 +872,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/NathanHufnagel.jpg"
             },
             "nzihl:BSW:player:2394757": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Nico Hemming",
@@ -885,7 +885,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/NicoHemming.jpg"
             },
             "nzihl:BSW:player:2394958": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Nicholas Winchester",
@@ -898,7 +898,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/NicWinchester%2Ejpg"
             },
             "nzihl:BSW:player:2470134": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Rudolfs Lapsa",
@@ -917,7 +917,7 @@
           "display_name": "Canterbury Red Devils",
           "people": {
             "nzihl:CRD:coach:Anton|Purver|Head Coach": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Anton Purver",
@@ -930,7 +930,7 @@
               "source_url": null
             },
             "nzihl:CRD:coach:Ivar|Hoglund|Assistant Coach": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Ivar Hoglund",
@@ -943,7 +943,7 @@
               "source_url": null
             },
             "nzihl:CRD:coach:Matt|Harrop|Assistant Coach": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Matt Harrop",
@@ -956,7 +956,7 @@
               "source_url": null
             },
             "nzihl:CRD:player:1936613": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Eli Seo Jun Paek",
@@ -969,7 +969,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/Eli%2Ejpg"
             },
             "nzihl:CRD:player:1936890": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Aaron Byfield",
@@ -982,7 +982,7 @@
               "source_url": null
             },
             "nzihl:CRD:player:1937263": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Jacob Wallace",
@@ -995,7 +995,7 @@
               "source_url": null
             },
             "nzihl:CRD:player:1937736": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Jack Barton",
@@ -1008,7 +1008,7 @@
               "source_url": null
             },
             "nzihl:CRD:player:1939291": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Harry Campbell",
@@ -1021,7 +1021,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/HarryC%2Ejpg"
             },
             "nzihl:CRD:player:1940784": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Lucas Duggan",
@@ -1034,7 +1034,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/Duggan%2Ejpg"
             },
             "nzihl:CRD:player:1951035": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Timothy Thomas",
@@ -1047,7 +1047,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/Tim%2Ejpg"
             },
             "nzihl:CRD:player:1951224": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Luke Tappin",
@@ -1060,7 +1060,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/L%5FTappin%2Ejpg"
             },
             "nzihl:CRD:player:1954369": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Haydn Boul",
@@ -1073,7 +1073,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/H%5FBoul%2Ejpg"
             },
             "nzihl:CRD:player:1955316": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "George Hopkins",
@@ -1086,7 +1086,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/G%5FHopkins%2Ejpg"
             },
             "nzihl:CRD:player:1955535": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Nicky Dodwell",
@@ -1099,7 +1099,7 @@
               "source_url": null
             },
             "nzihl:CRD:player:1955688": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Logan Willis",
@@ -1112,7 +1112,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/Logan%2Ejpg"
             },
             "nzihl:CRD:player:1955690": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Niall Fanning",
@@ -1125,7 +1125,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/N%5FFanning%2Ejpg"
             },
             "nzihl:CRD:player:1959863": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Harry Louw",
@@ -1138,7 +1138,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/Haz%2Ejpg"
             },
             "nzihl:CRD:player:1960222": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Joshua Louw",
@@ -1151,7 +1151,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/J%5FLouw%2Ejpg"
             },
             "nzihl:CRD:player:1964432": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Shaun Brown",
@@ -1164,7 +1164,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/Shaun%2Ejpg"
             },
             "nzihl:CRD:player:1989517": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Joel Keogh-Cope",
@@ -1177,7 +1177,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/Joel%2Ejpg"
             },
             "nzihl:CRD:player:1998206": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Daniel Reason",
@@ -1190,7 +1190,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/Dan%2Ejpg"
             },
             "nzihl:CRD:player:2013730": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Timothy Carey",
@@ -1203,7 +1203,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/TimC%2Ejpg"
             },
             "nzihl:CRD:player:2022553": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Caleb Hance",
@@ -1216,7 +1216,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/C%5FHance%2Ejpg"
             },
             "nzihl:CRD:player:2029362": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Seamus Gallagher",
@@ -1229,7 +1229,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/Seamus%2Ejpg"
             },
             "nzihl:CRD:player:2029932": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Oliver Carian",
@@ -1242,7 +1242,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/O%5FCarian%2Ejpg"
             },
             "nzihl:CRD:player:2037535": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Mason Rees",
@@ -1255,7 +1255,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/Mason%2Ejpg"
             },
             "nzihl:CRD:player:2049908": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Garth Henare",
@@ -1268,7 +1268,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/Garth%2Ejpg"
             },
             "nzihl:CRD:player:2132473": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Shamil Daudov",
@@ -1281,7 +1281,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/S%5FDaudov%2Ejpg"
             },
             "nzihl:CRD:player:2187935": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Jaan Turia",
@@ -1294,7 +1294,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/J%5FTuria%2Ejpg"
             },
             "nzihl:CRD:player:2264027": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Mikael Guerin",
@@ -1307,7 +1307,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/Mik%2Ejpg"
             },
             "nzihl:CRD:player:2282410": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Craig Hayes",
@@ -1320,7 +1320,7 @@
               "source_url": null
             },
             "nzihl:CRD:player:2369321": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Peter Zhang",
@@ -1333,7 +1333,7 @@
               "source_url": null
             },
             "nzihl:CRD:player:2469948": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Micah Clark",
@@ -1346,7 +1346,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/M%5FClarke%2Ejpg"
             },
             "nzihl:CRD:player:2470046": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Kieran Higgins",
@@ -1359,7 +1359,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/K%5FHiggins%2Ejpg"
             },
             "nzihl:CRD:player:2470536": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Fabian Hast",
@@ -1372,7 +1372,7 @@
               "source_url": null
             },
             "nzihl:CRD:player:2470539": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Alex Gagnon",
@@ -1385,7 +1385,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/A%5FGagnon%2Ejpg"
             },
             "nzihl:CRD:player:2475233": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Michael Morrissey",
@@ -1404,7 +1404,7 @@
           "display_name": "Dunedin Thunder",
           "people": {
             "nzihl:DUN:coach:Guillaume|Leclancher|Head Coach": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Guillaume Leclancher",
@@ -1417,7 +1417,7 @@
               "source_url": null
             },
             "nzihl:DUN:coach:Jamin|Harrex|Assistant Coach": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Jamin Harrex",
@@ -1430,7 +1430,7 @@
               "source_url": null
             },
             "nzihl:DUN:player:1939350": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Luc Taillon",
@@ -1443,7 +1443,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/lucEASPORT%2Epng"
             },
             "nzihl:DUN:player:2012496": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Ian Audas",
@@ -1456,7 +1456,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/IanEASPORT%2Epng"
             },
             "nzihl:DUN:player:2012580": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Morgan Blair",
@@ -1469,7 +1469,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/MorganEASPORT%2Epng"
             },
             "nzihl:DUN:player:2012682": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Jack Lewis",
@@ -1482,7 +1482,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/JackEASPORT%2Epng"
             },
             "nzihl:DUN:player:2013384": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Max Hurring",
@@ -1495,7 +1495,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/maxEASPORT%2Epng"
             },
             "nzihl:DUN:player:2015543": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "James Moore",
@@ -1508,7 +1508,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/JamesEASPORT%2Epng"
             },
             "nzihl:DUN:player:2016867": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Joe Orr",
@@ -1521,7 +1521,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/JoeEASPORT%2Epng"
             },
             "nzihl:DUN:player:2024724": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Isaac Koh",
@@ -1534,7 +1534,7 @@
               "source_url": null
             },
             "nzihl:DUN:player:2027422": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Cody Byck",
@@ -1547,7 +1547,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/CodyEASPORT%2Epng"
             },
             "nzihl:DUN:player:2027668": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Thomas Clark",
@@ -1560,7 +1560,7 @@
               "source_url": null
             },
             "nzihl:DUN:player:2030004": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Shaun Thomson",
@@ -1573,7 +1573,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/ShaunEASPORT%2Epng"
             },
             "nzihl:DUN:player:2054158": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Sef Johnston",
@@ -1586,7 +1586,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/SefEASPORT%2Epng"
             },
             "nzihl:DUN:player:2066397": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "William Bary",
@@ -1599,7 +1599,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/WillEASPORT%2Epng"
             },
             "nzihl:DUN:player:2066872": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Jackson Sam",
@@ -1612,7 +1612,7 @@
               "source_url": null
             },
             "nzihl:DUN:player:2083568": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Toby Schuck",
@@ -1625,7 +1625,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/TobyEASPORT%2Epng"
             },
             "nzihl:DUN:player:2147439": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Edward Lawrence",
@@ -1638,7 +1638,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/SefEASPORT2%2Epng"
             },
             "nzihl:DUN:player:2148241": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Pax Kollar",
@@ -1651,7 +1651,7 @@
               "source_url": null
             },
             "nzihl:DUN:player:2156251": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Daniel Lee",
@@ -1664,7 +1664,7 @@
               "source_url": null
             },
             "nzihl:DUN:player:2160385": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Regan Wilson",
@@ -1677,7 +1677,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/reganEASPORT%2Epng"
             },
             "nzihl:DUN:player:2170060": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Katsuto Ikai",
@@ -1690,7 +1690,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/KatsuEASPORT%2Epng"
             },
             "nzihl:DUN:player:2183698": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Ollie Rout",
@@ -1703,7 +1703,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/OllieEASPORT%2Epng"
             },
             "nzihl:DUN:player:2271891": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Lachlan Boniface",
@@ -1716,7 +1716,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/LachlanEASPORT%2Epng"
             },
             "nzihl:DUN:player:2346738": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Cole Beckstead",
@@ -1729,7 +1729,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/ColeBecksteadEASPORT2%2Epng"
             },
             "nzihl:DUN:player:2351682": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Austin Goh",
@@ -1742,7 +1742,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/AustinEASPORT%2Epng"
             },
             "nzihl:DUN:player:2358886": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Tristan Darling",
@@ -1755,7 +1755,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/TristanEASPORT%2Epng"
             },
             "nzihl:DUN:player:2365698": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Luke Stegmann",
@@ -1768,7 +1768,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/LukeEASPORT%2Epng"
             },
             "nzihl:DUN:player:2470835": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Samuel Loiselle",
@@ -1781,7 +1781,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/SamEASPORT%2Epng"
             },
             "nzihl:DUN:player:2470973": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Chris Eaden",
@@ -1794,7 +1794,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/ChrisEASPORT%2Epng"
             },
             "nzihl:DUN:player:2482040": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Rayne Walsh",
@@ -1819,7 +1819,7 @@
           "display_name": "SkyCity Stampede",
           "people": {
             "nzihl:SCS:coach:Cam|Frear|Head Coach": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Cam Frear",
@@ -1832,7 +1832,7 @@
               "source_url": null
             },
             "nzihl:SCS:coach:Jaden|Skipper|Assistant Coach": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Jaden Skipper",
@@ -1845,7 +1845,7 @@
               "source_url": null
             },
             "nzihl:SCS:coach:Steve|Reid|Assistant Coach": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Steve Reid",
@@ -1858,7 +1858,7 @@
               "source_url": null
             },
             "nzihl:SCS:player:1177139": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Maxim Kaluzhny",
@@ -1871,7 +1871,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/MaximKaluzhny.jpg"
             },
             "nzihl:SCS:player:1675843": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Aston Brookes",
@@ -1884,7 +1884,7 @@
               "source_url": null
             },
             "nzihl:SCS:player:1954036": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Jordan Challis",
@@ -1897,7 +1897,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/JordanChallis.jpg"
             },
             "nzihl:SCS:player:2011941": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Joel Gerard",
@@ -1910,7 +1910,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/JoelGerard.jpg"
             },
             "nzihl:SCS:player:2012738": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Stefan Amston",
@@ -1923,7 +1923,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/StefanArmston%2Ejpg"
             },
             "nzihl:SCS:player:2012888": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Dylan Devlin",
@@ -1936,7 +1936,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/DylanDevlinprofile%2Ejpg"
             },
             "nzihl:SCS:player:2015045": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Connor Harrison",
@@ -1949,7 +1949,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/ConnorHarrison.jpg"
             },
             "nzihl:SCS:player:2015796": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Jack Robbie",
@@ -1962,7 +1962,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/JackRobbie.jpg"
             },
             "nzihl:SCS:player:2016315": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Jackson Flight",
@@ -1975,7 +1975,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/JacksonFlight.jpg"
             },
             "nzihl:SCS:player:2025961": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Jake Hutchins",
@@ -1988,7 +1988,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/202606061624020%2Ejpg"
             },
             "nzihl:SCS:player:2026081": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Jesse Hutchins",
@@ -2001,7 +2001,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/JesseHutchins.jpg"
             },
             "nzihl:SCS:player:2028362": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Tristan Walker",
@@ -2014,7 +2014,7 @@
               "source_url": null
             },
             "nzihl:SCS:player:2028900": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Blake Campbell",
@@ -2027,7 +2027,7 @@
               "source_url": null
             },
             "nzihl:SCS:player:2042156": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Liam Rasmussen",
@@ -2040,7 +2040,7 @@
               "source_url": null
             },
             "nzihl:SCS:player:2046545": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Jake Thompson",
@@ -2053,7 +2053,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/JakeThomspon%2Ejpg"
             },
             "nzihl:SCS:player:2047498": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Benjamin Dixon",
@@ -2066,7 +2066,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/20260606162248%2Ejpg"
             },
             "nzihl:SCS:player:2047600": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Noah Reid",
@@ -2079,7 +2079,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/20260606162141%2Ejpg"
             },
             "nzihl:SCS:player:2050431": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Ollie Ruski-Jones",
@@ -2092,7 +2092,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/OllieRuskiJones%2Ejpg"
             },
             "nzihl:SCS:player:2050433": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Axel Ruski-Jones",
@@ -2105,7 +2105,7 @@
               "source_url": null
             },
             "nzihl:SCS:player:2070139": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Lachlan Frear",
@@ -2118,7 +2118,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/LachlanFrear.jpg"
             },
             "nzihl:SCS:player:2070602": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Matthew Swirtz",
@@ -2131,7 +2131,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/MattSwirtz%2Ejpg"
             },
             "nzihl:SCS:player:2070889": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Josh Hurley",
@@ -2144,7 +2144,7 @@
               "source_url": null
             },
             "nzihl:SCS:player:2072383": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Maxwell Macharg",
@@ -2157,7 +2157,7 @@
               "source_url": null
             },
             "nzihl:SCS:player:2072385": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Harrison Macharg",
@@ -2170,7 +2170,7 @@
               "source_url": null
             },
             "nzihl:SCS:player:2072809": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Jaden Skipper",
@@ -2183,7 +2183,7 @@
               "source_url": null
             },
             "nzihl:SCS:player:2073065": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Mitchell Frear",
@@ -2196,7 +2196,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/MitchellFrear.jpg"
             },
             "nzihl:SCS:player:2073093": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Cameron Trew",
@@ -2209,7 +2209,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/CamTrew%2Ejpg"
             },
             "nzihl:SCS:player:2114204": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Tyler Challoner",
@@ -2222,7 +2222,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/TylerChalloner.jpg"
             },
             "nzihl:SCS:player:2118956": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Logan Campbell",
@@ -2235,7 +2235,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/LoganCampbell.jpg"
             },
             "nzihl:SCS:player:2166971": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Conner Jean",
@@ -2248,7 +2248,7 @@
               "source_url": null
             },
             "nzihl:SCS:player:2169088": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Max Roth",
@@ -2272,7 +2272,7 @@
           "display_name": "Auckland Steel",
           "people": {
             "nzwihl:AST:coach:Darren|Blong|Head Coach": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Darren Blong",
@@ -2285,7 +2285,7 @@
               "source_url": null
             },
             "nzwihl:AST:coach:Markku|Multaharju|Assistant Coach": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Markku Multaharju",
@@ -2298,7 +2298,7 @@
               "source_url": null
             },
             "nzwihl:AST:coach:Rachel|Park|Assistant Coach": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Rachel Park",
@@ -2311,7 +2311,7 @@
               "source_url": null
             },
             "nzwihl:AST:player:1658947": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Fuchsia Davidson",
@@ -2324,7 +2324,7 @@
               "source_url": null
             },
             "nzwihl:AST:player:1936897": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "MeiMei Keith",
@@ -2337,7 +2337,7 @@
               "source_url": null
             },
             "nzwihl:AST:player:1936901": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Emma Child",
@@ -2350,7 +2350,7 @@
               "source_url": null
             },
             "nzwihl:AST:player:1937062": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Charlotte Butterfield",
@@ -2363,7 +2363,7 @@
               "source_url": null
             },
             "nzwihl:AST:player:1937105": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Liliana Reeves",
@@ -2376,7 +2376,7 @@
               "source_url": null
             },
             "nzwihl:AST:player:1937144": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Charlotte Pye",
@@ -2389,7 +2389,7 @@
               "source_url": null
             },
             "nzwihl:AST:player:1937232": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Lili Hidvegi",
@@ -2402,7 +2402,7 @@
               "source_url": null
             },
             "nzwihl:AST:player:1937629": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Emma Thorne",
@@ -2415,7 +2415,7 @@
               "source_url": null
             },
             "nzwihl:AST:player:1938173": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Eleanor Cunningham",
@@ -2428,7 +2428,7 @@
               "source_url": null
             },
             "nzwihl:AST:player:1938223": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Lochlyn Henry",
@@ -2441,7 +2441,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/LochlynHenry.jpg"
             },
             "nzwihl:AST:player:1938307": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Ashley Richmond",
@@ -2454,7 +2454,7 @@
               "source_url": null
             },
             "nzwihl:AST:player:1939339": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Sabina Tunnicliffe",
@@ -2467,7 +2467,7 @@
               "source_url": null
             },
             "nzwihl:AST:player:1941431": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Rikki-Lee McLean",
@@ -2480,7 +2480,7 @@
               "source_url": null
             },
             "nzwihl:AST:player:1944394": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Jaime Jones",
@@ -2493,7 +2493,7 @@
               "source_url": null
             },
             "nzwihl:AST:player:1945218": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Makayla Pang",
@@ -2506,7 +2506,7 @@
               "source_url": null
             },
             "nzwihl:AST:player:1952810": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Hannah Shields",
@@ -2519,7 +2519,7 @@
               "source_url": null
             },
             "nzwihl:AST:player:1955510": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Mana Keefe",
@@ -2532,7 +2532,7 @@
               "source_url": null
             },
             "nzwihl:AST:player:1956628": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "India Easton",
@@ -2545,7 +2545,7 @@
               "source_url": null
             },
             "nzwihl:AST:player:1970961": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Helen Murray",
@@ -2558,7 +2558,7 @@
               "source_url": null
             },
             "nzwihl:AST:player:1970962": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Jasmine Horner-Pascoe",
@@ -2571,7 +2571,7 @@
               "source_url": null
             },
             "nzwihl:AST:player:2088249": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Anjali Mulari",
@@ -2584,7 +2584,7 @@
               "source_url": null
             },
             "nzwihl:AST:player:2141575": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Riley Wickes-Smith",
@@ -2597,7 +2597,7 @@
               "source_url": null
             },
             "nzwihl:AST:player:2146856": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Brooke Patron",
@@ -2610,7 +2610,7 @@
               "source_url": null
             },
             "nzwihl:AST:player:2148807": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Keira Hunter",
@@ -2623,7 +2623,7 @@
               "source_url": null
             },
             "nzwihl:AST:player:2198272": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Alexa Gibson",
@@ -2636,7 +2636,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/AlexaGibson.jpg"
             },
             "nzwihl:AST:player:2234098": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Jorja Rosser",
@@ -2649,7 +2649,7 @@
               "source_url": null
             },
             "nzwihl:AST:player:2239994": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Katya Blong",
@@ -2662,7 +2662,7 @@
               "source_url": null
             },
             "nzwihl:AST:player:2244567": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Ciara Harvey",
@@ -2675,7 +2675,7 @@
               "source_url": null
             },
             "nzwihl:AST:player:2266164": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Maddy Sutton",
@@ -2688,7 +2688,7 @@
               "source_url": null
             },
             "nzwihl:AST:player:2342352": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Tamryn Meyer",
@@ -2701,7 +2701,7 @@
               "source_url": null
             },
             "nzwihl:AST:player:2349195": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Erin Thomas",
@@ -2714,7 +2714,7 @@
               "source_url": null
             },
             "nzwihl:AST:player:2446938": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "McKenzie Ang",
@@ -2727,7 +2727,7 @@
               "source_url": null
             },
             "nzwihl:AST:player:2462795": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Lauren Askenazy",
@@ -2740,7 +2740,7 @@
               "source_url": null
             },
             "nzwihl:AST:player:2471055": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Evelyn Mu",
@@ -2759,7 +2759,7 @@
           "display_name": "Dunedin Thunder Women",
           "people": {
             "nzwihl:DTW:coach:Carole|Kalnins|Assistant Coach": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Carole Kalnins",
@@ -2772,7 +2772,7 @@
               "source_url": null
             },
             "nzwihl:DTW:coach:Mike|Sam|Head Coach": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Mike Sam",
@@ -2785,7 +2785,7 @@
               "source_url": null
             },
             "nzwihl:DTW:player:1945492": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Jacinta Hoglund",
@@ -2798,7 +2798,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/ADOM202605180018%2Ejpg"
             },
             "nzwihl:DTW:player:1949577": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Samantha Winder",
@@ -2811,7 +2811,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/305491cbb81d400687c119c6ddc33bb9%2Ejpg"
             },
             "nzwihl:DTW:player:2012136": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Camryn Linton",
@@ -2824,7 +2824,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/ADOM202505180242%2Ejpg"
             },
             "nzwihl:DTW:player:2012965": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Rosie Harris",
@@ -2837,7 +2837,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/ADOM202505180266%2Ejpg"
             },
             "nzwihl:DTW:player:2029765": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Felicia Goile",
@@ -2850,7 +2850,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/ADOM202504060748Edit%2Ejpg"
             },
             "nzwihl:DTW:player:2037375": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Nini Walton",
@@ -2863,7 +2863,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/ADOM202604220075%2Ejpg"
             },
             "nzwihl:DTW:player:2039923": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Lydia Hortop-Blair",
@@ -2876,7 +2876,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/ADOM202604220023%2Ejpg"
             },
             "nzwihl:DTW:player:2041698": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Izzy Power",
@@ -2889,7 +2889,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/ADOM202505180233%2Ejpg"
             },
             "nzwihl:DTW:player:2041740": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Abbey Heale",
@@ -2902,7 +2902,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/ADOM202604220027%2Ejpg"
             },
             "nzwihl:DTW:player:2045126": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Kate Vernal",
@@ -2915,7 +2915,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/ADOM202505180134%2Ejpg"
             },
             "nzwihl:DTW:player:2066403": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Jessica Ryall",
@@ -2928,7 +2928,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/ADOM202406011410%2Epng"
             },
             "nzwihl:DTW:player:2069437": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Rebecca Lilly",
@@ -2941,7 +2941,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/ADOM202604220080%2Ejpg"
             },
             "nzwihl:DTW:player:2074860": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Laney Keenan",
@@ -2954,7 +2954,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/ADOM202604220127%2Ejpg"
             },
             "nzwihl:DTW:player:2077023": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Hannah Cross",
@@ -2967,7 +2967,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/ADOM202505180173%2Ejpg"
             },
             "nzwihl:DTW:player:2115289": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Manuella Sanches Pedrosa",
@@ -2980,7 +2980,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/ADOM202604220014%2Ejpg"
             },
             "nzwihl:DTW:player:2155530": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Lucy Thomas",
@@ -2993,7 +2993,7 @@
               "source_url": null
             },
             "nzwihl:DTW:player:2170568": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Lyani Goodman",
@@ -3006,7 +3006,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/ADOM202505180127%2Ejpg"
             },
             "nzwihl:DTW:player:2214486": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Caitlin Hollyer",
@@ -3019,7 +3019,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/ADOM202604220062%2Ejpg"
             },
             "nzwihl:DTW:player:2349936": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Indie Lewis",
@@ -3032,7 +3032,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/ADOM202604220105%2Ejpg"
             },
             "nzwihl:DTW:player:2456538": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Sabine Vockins",
@@ -3051,7 +3051,7 @@
           "display_name": "Canterbury Inferno",
           "people": {
             "nzwihl:INF:coach:Matt|Sandford|Head Coach": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Matt Sandford",
@@ -3064,7 +3064,7 @@
               "source_url": null
             },
             "nzwihl:INF:coach:Sam|Johnston|Assistant Coach": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Sam Johnston",
@@ -3077,7 +3077,7 @@
               "source_url": null
             },
             "nzwihl:INF:coach:Steph|Koviessen|Assistant Coach": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Steph Koviessen",
@@ -3090,7 +3090,7 @@
               "source_url": null
             },
             "nzwihl:INF:player:1937245": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Nerhys Gordon",
@@ -3103,7 +3103,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/2026InfernoNehrysGORDON%2Ejpg"
             },
             "nzwihl:INF:player:1937363": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Addison Hodge",
@@ -3116,7 +3116,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/2026InfernoAddieHODGE%2Ejpg"
             },
             "nzwihl:INF:player:1937438": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Xunyin Zhang",
@@ -3129,7 +3129,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/2026InfernoEllaZHANG%2Ejpg"
             },
             "nzwihl:INF:player:1938955": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Sophie Jefferies",
@@ -3142,7 +3142,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/2026InfernoSophieJEFFERIESSMALLfilesize%2Ejpg"
             },
             "nzwihl:INF:player:1939722": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Kaci Jonker",
@@ -3155,7 +3155,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/2026InfernoKaciJONKER%2Ejpg"
             },
             "nzwihl:INF:player:1947931": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Lucy-Jane Hart",
@@ -3168,7 +3168,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/2026InfernoLJHART%2Ejpg"
             },
             "nzwihl:INF:player:1952802": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Paige Salay",
@@ -3181,7 +3181,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/2026InfernoPaigeSALAY%2Ejpg"
             },
             "nzwihl:INF:player:1952852": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Millicent Smith",
@@ -3194,7 +3194,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/2026InfernoMillieSMITH%2Ejpg"
             },
             "nzwihl:INF:player:1953927": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Stephanie Koviessen",
@@ -3207,7 +3207,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/stephBridie1%2EJPG"
             },
             "nzwihl:INF:player:1953992": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Reagyn Shattock",
@@ -3220,7 +3220,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/2026InfernoReagynSHATTOCK%2Ejpg"
             },
             "nzwihl:INF:player:1954556": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Cameron Tobin",
@@ -3233,7 +3233,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/2026InfernoCameronTOBIN%2Ejpg"
             },
             "nzwihl:INF:player:1957914": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Bridie Gibbings",
@@ -3246,7 +3246,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/stephBridie%2EJPG"
             },
             "nzwihl:INF:player:1970793": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Sierra Morgulis",
@@ -3259,7 +3259,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/2026InfernoSierraMORGULIS%2Ejpg"
             },
             "nzwihl:INF:player:1972699": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Chloe Harrop",
@@ -3272,7 +3272,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/2026InfernoChloeHARROP%2Ejpg"
             },
             "nzwihl:INF:player:1972940": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Lucia Eccleton-Allen",
@@ -3285,7 +3285,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/2026InfernoLucyECCLETON%2Ejpg"
             },
             "nzwihl:INF:player:2028145": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Coco Cruickshank",
@@ -3298,7 +3298,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/2026InfernoCocoCRUICKSHANK%2Ejpg"
             },
             "nzwihl:INF:player:2085416": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Tayla Wallace",
@@ -3311,7 +3311,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/2026InfernoTaylaWALLACE%2Ejpg"
             },
             "nzwihl:INF:player:2092065": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Angela Godfrey",
@@ -3324,7 +3324,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/2026InfernoAngeGODFREY%2Ejpg"
             },
             "nzwihl:INF:player:2097942": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Abby Barnett",
@@ -3337,7 +3337,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/2026InfernoAbbyBARNETT%2Ejpg"
             },
             "nzwihl:INF:player:2101663": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Gabrielle Guerin",
@@ -3350,7 +3350,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/2026InfernoGabbyGUERIN%2Ejpg"
             },
             "nzwihl:INF:player:2141575": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Riley Wickes-Smith",
@@ -3363,7 +3363,7 @@
               "source_url": null
             },
             "nzwihl:INF:player:2148127": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Tessa Langman",
@@ -3376,7 +3376,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/2026InfernoTessaLANGMAN%2Ejpg"
             },
             "nzwihl:INF:player:2156625": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Rosemary Lee",
@@ -3389,7 +3389,7 @@
               "source_url": null
             },
             "nzwihl:INF:player:2203867": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Steph Patchett",
@@ -3402,7 +3402,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/2026InfernoStephPATCHETT%2Ejpg"
             },
             "nzwihl:INF:player:2209869": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Annah Matthews",
@@ -3415,7 +3415,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/2026InfernoAnnahMATTHEWS%2Ejpg"
             },
             "nzwihl:INF:player:2245894": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Anabelle Guerin",
@@ -3428,7 +3428,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/2026InfernoAnabelleGUERIN%2Ejpg"
             },
             "nzwihl:INF:player:2411681": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Jessie Strain",
@@ -3441,7 +3441,7 @@
               "source_url": "https://admin.esportsdesk.com/media/leagues/6795/graphics/2026InfernoJesseSTRAIN%2Ejpg"
             },
             "nzwihl:INF:player:2454583": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Lucy Boniface",
@@ -3460,7 +3460,7 @@
           "display_name": "Wakatipu Wild",
           "people": {
             "nzwihl:WLD:coach:Jc|Lavoie|Assistant Coach": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Jc Lavoie",
@@ -3473,7 +3473,7 @@
               "source_url": null
             },
             "nzwihl:WLD:coach:Trevor|Lawrence|Head Coach": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Trevor Lawrence",
@@ -3486,7 +3486,7 @@
               "source_url": null
             },
             "nzwihl:WLD:player:1921930": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Jamie Harris",
@@ -3499,7 +3499,7 @@
               "source_url": null
             },
             "nzwihl:WLD:player:1936932": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Zadia Paulse",
@@ -3512,7 +3512,7 @@
               "source_url": null
             },
             "nzwihl:WLD:player:2026235": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Gina Di Rienzo",
@@ -3525,7 +3525,7 @@
               "source_url": null
             },
             "nzwihl:WLD:player:2026308": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Reiley Andrews",
@@ -3538,7 +3538,7 @@
               "source_url": null
             },
             "nzwihl:WLD:player:2028096": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Polly Bennetts",
@@ -3551,7 +3551,7 @@
               "source_url": null
             },
             "nzwihl:WLD:player:2037279": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Zoe Thurston",
@@ -3564,7 +3564,7 @@
               "source_url": null
             },
             "nzwihl:WLD:player:2037466": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Jordan Wichman",
@@ -3577,7 +3577,7 @@
               "source_url": null
             },
             "nzwihl:WLD:player:2050664": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Bobbie Weeks",
@@ -3590,7 +3590,7 @@
               "source_url": null
             },
             "nzwihl:WLD:player:2050711": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Lydia Clarke",
@@ -3603,7 +3603,7 @@
               "source_url": null
             },
             "nzwihl:WLD:player:2055745": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Kristyn Ouimet",
@@ -3616,7 +3616,7 @@
               "source_url": null
             },
             "nzwihl:WLD:player:2079820": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Joanna Styles",
@@ -3629,7 +3629,7 @@
               "source_url": null
             },
             "nzwihl:WLD:player:2082509": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Gabby Mills",
@@ -3642,7 +3642,7 @@
               "source_url": null
             },
             "nzwihl:WLD:player:2101606": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Gracie Hellmrich",
@@ -3655,7 +3655,7 @@
               "source_url": null
             },
             "nzwihl:WLD:player:2247142": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Tuhi-Mareikura Hopa-Thomson",
@@ -3668,7 +3668,7 @@
               "source_url": null
             },
             "nzwihl:WLD:player:2279541": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Madeline Dixon",
@@ -3681,7 +3681,7 @@
               "source_url": null
             },
             "nzwihl:WLD:player:2364632": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Bella Pownall",
@@ -3694,7 +3694,7 @@
               "source_url": null
             },
             "nzwihl:WLD:player:2376316": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Kelli Burstein",
@@ -3707,7 +3707,7 @@
               "source_url": null
             },
             "nzwihl:WLD:player:2410374": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Tayla Potter",
@@ -3720,7 +3720,7 @@
               "source_url": null
             },
             "nzwihl:WLD:player:2436814": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Bridey Sangster",
@@ -3733,7 +3733,7 @@
               "source_url": null
             },
             "nzwihl:WLD:player:2437033": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Aoife Orr",
@@ -3746,7 +3746,7 @@
               "source_url": null
             },
             "nzwihl:WLD:player:2465580": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Isla Lawrence",
@@ -3759,7 +3759,7 @@
               "source_url": null
             },
             "nzwihl:WLD:player:2471355": {
-              "active": true,
+              "active": false,
               "first_seen": "2026-07-11",
               "last_verified": "2026-08-07",
               "name": "Joana Letourneau",
