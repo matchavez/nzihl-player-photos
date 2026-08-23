@@ -2,11 +2,14 @@
 
 Self-context for Claude. README.md is human-facing (URL contract, filename
 rules, quick start). This file adds automation state, design decisions and
-gotchas README doesn't need to spell out. Created 2026-07-11 (initial build).
+gotchas README doesn't need to spell out. Created 2026-07-11 (initial build),
+last refreshed 2026-08-24.
 
 ## What this repo is
 
-Weekly GitHub Action (`build-photos.yml`, cron `0 19 * * 4` = Thu 19:00 UTC)
+Weekly GitHub Action (`build-photos.yml`, cron `0 19 * * 4` = Thu 19:00 UTC —
+**paused for the 2026 off-season as of 2026-08-24**, `workflow_dispatch`
+still works for a manual run, re-enable ahead of next season)
 that scrapes every rostered NZIHL/NZWIHL player + coach's headshot from
 esportsdesk into a committed archive (`photos/<league>/<team_slug>/<Name>.jpg`),
 writes `manifest.json`, and regenerates a static `index.html` gallery served
@@ -87,10 +90,13 @@ suspenders on top of git's own content-based diffing).
 listed, Mako absent). Registered in `teams.py` with `team_id=None`;
 `cli.run()` skips the scrape for any team with `team_id=None` and the
 gallery renders a "not fielding a team this season" placeholder section
-instead of omitting the franchise silently. Same state as the
-`TODO @publish` comments already sitting in `matchavez/hockey`'s
-scorebug/summary overlays -- fill in the real ID there too whenever Mako's
-teamID surfaces.
+instead of omitting the franchise silently. **Correction (2026-08-24):** this
+used to compare Mako's situation to `TODO @publish` comments in
+`matchavez/hockey`'s scorebug/summary overlays, but those were deleted from
+that repo's source on 2026-07-25 — they described something unrelated (a
+deliberately Christchurch-only Singular scorebug map, not a placeholder
+waiting on a team ID), not Mako. Fill in Mako's real `team_id` here whenever
+it surfaces; there's no cross-repo TODO tied to it.
 
 **Team ordering in the gallery:** dynamic, fetched from `standings.cfm`
 live each run (`cli.build_league_order()` + `scraper.parse_standings_order()`)
