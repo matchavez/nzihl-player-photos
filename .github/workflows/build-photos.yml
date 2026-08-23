@@ -2,8 +2,12 @@ name: Build player photo warehouse
 
 on:
   # Weekly, Thursday 19:00 UTC = Friday 07:00 NZST (winter) / 08:00 NZDT (summer).
-  schedule:
-    - cron: "0 19 * * 4"
+  #
+  # PAUSED for 2026 off-season — 2026-08-24. Both leagues' seasons are over,
+  # rosters are static until next season's registrations. Re-enable the
+  # schedule block below ahead of next season.
+  # schedule:
+  #   - cron: "0 19 * * 4"
   workflow_dispatch: {}
 
 permissions:
